@@ -320,7 +320,7 @@ $settings['hash_salt'] = 'kZBslSStke0pMwny-HhdostkgiW3r_U5Dn8fCiLMmHsy4m82kSCRvR
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
-$settings['update_free_access'] = FALSE;
+$settings['update_free_access'] = false;
 
 /**
  * External access proxy settings:
@@ -745,7 +745,10 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
-
+ $settings['trusted_host_patterns'] = array(
+   '^localhost$',
+   '^localhost/cci$',
+ );
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -785,13 +788,14 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
+$databases['default']['default'] = array(
   'database' => 'ccidata',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
   'host' => '127.0.01',
   'port' => '3306',
+  'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
