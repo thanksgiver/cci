@@ -65,7 +65,6 @@ $yellow:  #ffc107;
 $green:   #28a745;
 $teal:    #20c997;
 $cyan:    #17a2b8;
-$brand:   #D34C02;
 
 $colors: ();
 $colors: map-merge((
@@ -81,8 +80,7 @@ $colors: map-merge((
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800,
-  "brand":      $brand
+  "gray-dark":  $gray-800
 ), $colors);
 
 $primary:       $blue;
@@ -104,7 +102,6 @@ $theme-colors: map-merge((
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
-  "brand":      $brand
 ), $theme-colors);
 // stylelint-enable
 
@@ -173,7 +170,7 @@ $body-color:                $gray-800;
 
 $link-color:                $gray-900;
 $link-decoration:           none;
-$link-hover-color:          $brand;
+$link-hover-color:          $primary;
 $link-hover-decoration:     none;
 
 // Paragraphs
