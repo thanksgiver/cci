@@ -1,0 +1,26 @@
+name: Eva
+type: theme
+base theme: classy
+description: 加拿大华人归正教会网站模板
+package: CRC
+core: 8.x
+version: 8.x-4.0
+screenshot: screenshot.png
+regions:
+  brand: 'Brand'
+  primary_menu: 'Primary menu'
+  search: 'Search'
+  left_sidebar: 'Left sidebar'
+  right_sidebar: 'Right sidebar'
+  breadcrumb: 'Breadcrumb'
+  help: 'Help'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'
+  footer_menu: 'Footer menu'
+  copyright: 'Copyright'
+libraries:
+  - eva/global-styling
+libraries-override:
+  system/base: false
+  classy/base: false

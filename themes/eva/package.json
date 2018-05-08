@@ -1,0 +1,30 @@
+{
+  "name": "Eva",
+  "version": "1.0.0",
+  "description": "Drupal Theme",
+  "repository": {},
+  "dev_img": "___development/images",
+  "dev_scss": "___development/scss",
+  "dev_js": "___development/js",
+  "css": "css",
+  "img": "images",
+  "js": "js",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-size-report": "^0.1.3",
+    "jit-grunt": "^0.10.0",
+    "time-grunt": "^1.3.0"
+  },
+  "author": "Eugene Yu",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.3.0"
+  }
+}
