@@ -1,6 +1,6 @@
 name: Eva
 type: theme
-base theme: classy
+base theme: stable
 description: 加拿大华人归正教会网站模板
 package: CRC
 core: 8.x
