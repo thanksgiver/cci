@@ -8,6 +8,9 @@ version: 8.x-1.0
 screenshot: screenshot.png
 libraries:
   - eva/global-styling
+  - eva/global-scripts
+ckeditor_stylesheets:
+  - css/ckeditor.min.css
 regions:
   header: Header
   primary_menu: 'Primary menu'

@@ -1,0 +1,8 @@
+ol.bible-reference,
+ul.bible-reference {
+  padding: 0;
+  margin: $spacer $spacer * 2;
+  font-size: 0.8rem;
+  font-style: italic;
+  li{border-bottom: 1px dotted $gray-300;}
+}

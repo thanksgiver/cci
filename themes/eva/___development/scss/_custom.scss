@@ -83,7 +83,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $blue;
+$primary:       #F03C07;
 $secondary:     $gray-600;
 $success:       $green;
 $info:          $cyan;
@@ -169,7 +169,7 @@ $body-color:                $gray-900;
 // Style anchor elements.
 
 $link-color:                $primary;
-$link-decoration:           underline;
+$link-decoration:           none;
 $link-hover-color:          lighten($primary, 10%);
 $link-hover-decoration:     underline;
 
@@ -201,11 +201,19 @@ $grid-breakpoints: (
 //
 // Define the maximum width of `.container` for different screen sizes.
 
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px
+// );
+
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  xs: 320px,
+  sm: 480px,
+  md: 540px,
+  lg: 640px,
+  xl: 768px
 );
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -264,7 +272,7 @@ $font-weight-normal:          400;
 $font-weight-bold:            500;
 
 $font-weight-base:            $font-weight-normal;
-$line-height-base:            1.5;
+$line-height-base:            2;
 
 // $h1-font-size:                $font-size-base * 2.5;
 // $h2-font-size:                $font-size-base * 2;

@@ -1,0 +1,17 @@
+@import "compass/css3";
+@import "fonts";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "custom";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "root";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+
+body{
+  padding: $spacer;
+  font-family: $font-family-serif;
+}
+
+@import "components/bible-reference";
+@import "components/sup";

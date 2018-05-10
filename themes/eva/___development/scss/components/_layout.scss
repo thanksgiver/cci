@@ -1,3 +1,22 @@
 html{
-  @include font-smoothing;
+  // @include font-smoothing;
+  @include media-breakpoint-only(xs) { font-size: 16px; }
+  @include media-breakpoint-only(sm) { font-size: 17px; }
+  @include media-breakpoint-only(md) { font-size: 18px; }
+  @include media-breakpoint-only(lg) { font-size: 19px; }
+  @include media-breakpoint-only(xl) { font-size: 20px; }
 }
+
+
+#site-header{
+  border-bottom: 1px solid $gray-200;
+  @include single-box-shadow(0, 0, 3rem, null, rgba(black, 0.15), null);
+}//#site-header
+
+#site-content{
+  padding-top: 3rem;
+}//#site-content
+
+#site-footer{
+
+}//#site-footer

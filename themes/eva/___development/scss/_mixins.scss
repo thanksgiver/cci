@@ -69,11 +69,11 @@
 
   &::after {
     @include opacity(0.95);
-    @include media-breakpoint-up(xs) {content: 'XS'; background-color: darken(#ff0, 10%); color: #000;}
-    @include media-breakpoint-up(sm) {content: 'SM'; background-color: darken(#00f, 10%); color: #fff;}
-    @include media-breakpoint-up(md) {content: 'MD'; background-color: darken(#0f0, 10%); color: #fff;}
-    @include media-breakpoint-up(lg) {content: 'LG'; background-color: darken(#f90, 10%); color: #fff;}
-    @include media-breakpoint-up(xl) {content: 'XL'; background-color: darken(#c00, 10%); color: #fff;}
+    @include media-breakpoint-only(xs) {content: 'XS'; background-color: darken(#ff0, 10%); color: #000;}
+    @include media-breakpoint-only(sm) {content: 'SM'; background-color: darken(#00f, 10%); color: #fff;}
+    @include media-breakpoint-only(md) {content: 'MD'; background-color: darken(#0f0, 10%); color: #fff;}
+    @include media-breakpoint-only(lg) {content: 'LG'; background-color: darken(#f90, 10%); color: #fff;}
+    @include media-breakpoint-only(xl) {content: 'XL'; background-color: darken(#c00, 10%); color: #fff;}
 
     $size: 0.6rem;
     position: fixed;
@@ -93,17 +93,17 @@
 }
 
 @mixin content-paper{
-  @include media-breakpoint-up(xs) { padding: $spacer * 0.5  $spacer * 1; }
-  @include media-breakpoint-up(sm) { padding: $spacer * 0.75  $spacer * 1.5; }
-  @include media-breakpoint-up(md) { padding: $spacer * 1 $spacer * 2; }
-  @include media-breakpoint-up(lg) { padding: $spacer * 1.25 $spacer * 2.5; }
-  @include media-breakpoint-up(xl) { padding: $spacer * 1.5 $spacer * 3; }
+  @include media-breakpoint-only(xs) { padding: $spacer * 0.5  $spacer * 1; }
+  @include media-breakpoint-only(sm) { padding: $spacer * 0.75  $spacer * 1.5; }
+  @include media-breakpoint-only(md) { padding: $spacer * 1 $spacer * 2; }
+  @include media-breakpoint-only(lg) { padding: $spacer * 1.25 $spacer * 2.5; }
+  @include media-breakpoint-only(xl) { padding: $spacer * 1.5 $spacer * 3; }
 }
 
 @mixin sidebar-paper{
-  @include media-breakpoint-up(xs) { padding: $spacer * 0.25; }
-  @include media-breakpoint-up(sm) { padding: $spacer * 0.5; }
-  @include media-breakpoint-up(md) { padding: $spacer * 0.75; }
-  @include media-breakpoint-up(lg) { padding: $spacer; }
-  @include media-breakpoint-up(xl) { padding: $spacer; }
+  @include media-breakpoint-only(xs) { padding: $spacer * 0.25; }
+  @include media-breakpoint-only(sm) { padding: $spacer * 0.5; }
+  @include media-breakpoint-only(md) { padding: $spacer * 0.75; }
+  @include media-breakpoint-only(lg) { padding: $spacer; }
+  @include media-breakpoint-only(xl) { padding: $spacer; }
 }
