@@ -1,1 +1,14 @@
 <?php
+function eva_preprocess_menu_local_task(&$variables)
+{
+    $variables['link']['#options']['attributes']['class'][] = 'font-sans';
+    $variables['link']['#options']['attributes']['class'][] = 'btn';
+    $variables['link']['#options']['attributes']['class'][] = 'btn-sm';
+    $variables['link']['#options']['attributes']['class'][] = 'btn-success';
+    $variables['link']['#options']['attributes']['role'][] = 'button';
+}
+
+// function eva_preprocess_links(&$variables)
+// {
+//     kint($variables);
+// }

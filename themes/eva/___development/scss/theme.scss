@@ -4,7 +4,6 @@
 @import "custom";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
-// @import "../../node_modules/bootstrap/scss/root";
 @import "root";
 @import "../../node_modules/bootstrap/scss/reboot";
 @import "../../node_modules/bootstrap/scss/type";
@@ -38,5 +37,10 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "../../node_modules/bootstrap/scss/print";
 
-@import "mixins";
-@import "website/layout";
+@import "_mixins";
+@import "components/layout";
+@import "components/typography";
+@import "components/breadcrumb";
+@import "components/book-navigation";
+@import "components/inline-links";
+@import "components/publish-info";

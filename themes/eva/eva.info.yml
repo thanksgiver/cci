@@ -1,26 +1,30 @@
 name: Eva
 type: theme
 base theme: stable
-description: 加拿大华人归正教会网站模板
-package: CRC
+description: ccifellowship
+package: CCI
 core: 8.x
-version: 8.x-4.0
+version: 8.x-1.0
 screenshot: screenshot.png
-regions:
-  brand: 'Brand'
-  primary_menu: 'Primary menu'
-  search: 'Search'
-  left_sidebar: 'Left sidebar'
-  right_sidebar: 'Right sidebar'
-  breadcrumb: 'Breadcrumb'
-  help: 'Help'
-  highlighted: 'Highlighted'
-  content: 'Content'
-  footer: 'Footer'
-  footer_menu: 'Footer menu'
-  copyright: 'Copyright'
 libraries:
   - eva/global-styling
-libraries-override:
-  system/base: false
-  classy/base: false
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
