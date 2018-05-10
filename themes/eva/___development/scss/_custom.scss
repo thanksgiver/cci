@@ -55,7 +55,7 @@ $grays: map-merge((
   "950": $gray-950,
 ), $grays);
 
-$blue:    #007bff;
+$blue:    #2D6096;
 $indigo:  #6610f2;
 $purple:  #6f42c1;
 $pink:    #e83e8c;
@@ -168,10 +168,10 @@ $body-color:                $gray-900;
 //
 // Style anchor elements.
 
-$link-color:                $gray-700;
-$link-decoration:           none;
-$link-hover-color:          lighten($gray-700, 10%);
-$link-hover-decoration:     none;
+$link-color:                $primary;
+$link-decoration:           underline;
+$link-hover-color:          lighten($primary, 10%);
+$link-hover-decoration:     underline;
 
 // Paragraphs
 //
