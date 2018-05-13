@@ -602,14 +602,14 @@ $dropdown-header-color:             $gray-600;
 // Warning: Avoid customizing these values. They're used for a bird's eye view
 // of components dependent on the z-axis and are designed to all work together.
 
-$zindex-dropdown:                   1000;
-$zindex-sticky:                     1020;
-$zindex-fixed:                      1030;
-$zindex-modal-backdrop:             1040;
-$zindex-modal:                      1050;
-$zindex-popover:                    1060;
-$zindex-tooltip:                    1070;
-$zindex-navbar:                     1071;
+$zindex-dropdown:                   200;
+$zindex-sticky:                     220;
+$zindex-fixed:                      230;
+$zindex-modal-backdrop:             240;
+$zindex-modal:                      250;
+$zindex-popover:                    260;
+$zindex-tooltip:                    270;
+$zindex-navbar:                     271;
 
 // Navs
 

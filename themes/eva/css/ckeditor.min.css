@@ -1,46 +1,46 @@
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1525812872') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1526230761') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1525812872') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1526230760') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1525812871') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1526230759') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1525812875') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1526230768') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1525812875') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1526230766') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1525812874') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1526230765') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1525812871') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1526230757') format('truetype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1525812871') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1526230757') format('truetype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1525812870') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1526230757') format('truetype');
   font-weight: 500;
   font-style: normal; }
 :root {

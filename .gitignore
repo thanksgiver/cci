@@ -35,5 +35,5 @@
 # /scripts
 # /themes
 
-vendor
+/vendor
 node_modules

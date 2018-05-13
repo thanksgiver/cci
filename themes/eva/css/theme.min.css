@@ -1,46 +1,46 @@
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1525812872') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1526230761') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1525812872') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1526230760') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1525812871') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1526230759') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1525812875') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1526230768') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1525812875') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1526230766') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1525812874') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1526230765') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1525812871') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1526230757') format('truetype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1525812871') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1526230757') format('truetype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1525812870') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1526230757') format('truetype');
   font-weight: 500;
   font-style: normal; }
 :root {
@@ -2280,7 +2280,7 @@ input[type="button"].btn-block {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 200;
   display: none;
   float: left;
   min-width: 10rem;
@@ -3913,7 +3913,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 250;
   display: none;
   overflow: hidden;
   outline: 0; }
@@ -3959,7 +3959,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 240;
   background-color: #181919; }
   .modal-backdrop.fade {
     opacity: 0; }
@@ -4023,7 +4023,7 @@ button.close {
     max-width: 800px; } }
 .tooltip {
   position: absolute;
-  z-index: 1070;
+  z-index: 270;
   display: block;
   margin: 0;
   font-family: "Noto Serif CJK";
@@ -4108,7 +4108,7 @@ button.close {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1060;
+  z-index: 260;
   display: block;
   max-width: 276px;
   font-family: "Noto Serif CJK";
@@ -5379,20 +5379,20 @@ button.bg-dark:focus {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030; }
+  z-index: 230; }
 
 .fixed-bottom {
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1030; }
+  z-index: 230; }
 
 @supports (position: sticky) {
   .sticky-top {
     position: sticky;
     top: 0;
-    z-index: 1020; } }
+    z-index: 220; } }
 
 .sr-only {
   position: absolute;

@@ -10,3 +10,5 @@ global-scripts:
     js/bootstrap.min.js: {}
   dependencies:
     - core/jquery
+    - core/drupal
+    - core/jquery.once
