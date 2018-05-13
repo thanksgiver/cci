@@ -7,6 +7,9 @@ html{
   @include media-breakpoint-only(xl) { font-size: 20px; }
 }
 
+html, body{
+  height: 100%;
+}
 
 #site-header{
   border-bottom: 1px solid $gray-200;
