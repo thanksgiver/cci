@@ -15,7 +15,7 @@ class __TwigTemplate_fa31dfad43ad4c8704e46a3eec068eb1d479de9bfa6df950b831bdb5e7e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("if" => 56);
+        $tags = array("if" => 60);
         $filters = array();
         $functions = array();
 
@@ -41,154 +41,162 @@ class __TwigTemplate_fa31dfad43ad4c8704e46a3eec068eb1d479de9bfa6df950b831bdb5e7e
 
         // line 46
         echo "
-<header id=\"site-header\" class=\"sticky-top\">
-  <div class=\"container-fluid\">
-    <div class=\"row\">
-      <div class=\"col\">
-        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
-        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarToggler\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-          <span class=\"navbar-toggler-icon\"></span>
-        </button>
-        <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">
-          ";
-        // line 56
+<div class=\"page-wraper\">
+
+  <div class=\"page\">
+
+    <header id=\"site-header\" class=\"sticky-top\">
+      <div class=\"container-fluid\">
+        <div class=\"row\">
+          <div class=\"col\">
+            <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarToggler\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+              <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">
+              ";
+        // line 60
         if ($this->getAttribute(($context["page"] ?? null), "brand", array())) {
             echo " ";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "brand", array()), "html", null, true));
             echo " ";
         }
-        // line 57
-        echo "          <!-- <a class=\"navbar-brand\" href=\"#\"></a> -->
-          ";
-        // line 58
+        // line 61
+        echo "              <!-- <a class=\"navbar-brand\" href=\"#\"></a> -->
+              ";
+        // line 62
         if ($this->getAttribute(($context["page"] ?? null), "primary_menu", array())) {
             echo " ";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "primary_menu", array()), "html", null, true));
             echo " ";
         }
-        // line 59
-        echo "          <!-- <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
-            <li class=\"nav-item active\">
-              <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">Link</a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link disabled\" href=\"#\">Disabled</a>
-            </li>
-          </ul> -->
-          <form class=\"form-inline my-2 my-lg-0\">
-            <input class=\"form-control form-control-sm mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
-            <button class=\"btn btn-sm btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
-          </form>
+        // line 63
+        echo "              <!-- <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
+                <li class=\"nav-item active\">
+                  <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
+                </li>
+                <li class=\"nav-item\">
+                  <a class=\"nav-link\" href=\"#\">Link</a>
+                </li>
+                <li class=\"nav-item\">
+                  <a class=\"nav-link disabled\" href=\"#\">Disabled</a>
+                </li>
+              </ul> -->
+              <form class=\"form-inline my-2 my-lg-0\">
+                <input class=\"form-control form-control-sm mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
+                <button class=\"btn btn-sm btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
+              </form>
+            </div>
+          </nav>
+          </div>
         </div>
-      </nav>
       </div>
-    </div>
-  </div>
-</header>
+    </header>
 
-<section id=\"site-content\">
-  <div class=\"container\">
+    <section id=\"site-content\">
+      <div class=\"container\">
 
-    <div class=\"row\">
+        <div class=\"row\">
 
-      <div class=\"col\">
-        <header role=\"banner\">
-          ";
-        // line 88
+          <div class=\"col\">
+            <header role=\"banner\">
+              ";
+        // line 92
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "header", array()), "html", null, true));
         echo "
-        </header>
+            </header>
 
 
-        ";
-        // line 92
+            ";
+        // line 96
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "secondary_menu", array()), "html", null, true));
         echo "
 
-        ";
-        // line 94
+            ";
+        // line 98
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "breadcrumb", array()), "html", null, true));
         echo "
 
-        ";
-        // line 96
+            ";
+        // line 100
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "highlighted", array()), "html", null, true));
         echo "
 
-        ";
-        // line 98
+            ";
+        // line 102
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "help", array()), "html", null, true));
         echo "
 
-        <main role=\"main\">
-          <a id=\"main-content\" tabindex=\"-1\"></a>";
-        // line 102
-        echo "
-          <div class=\"layout-content\">
-            ";
-        // line 104
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), "html", null, true));
-        echo "
-          </div>";
+            <main role=\"main\">
+              <a id=\"main-content\" tabindex=\"-1\"></a>";
         // line 106
         echo "
-          ";
-        // line 107
-        if ($this->getAttribute(($context["page"] ?? null), "sidebar_first", array())) {
-            // line 108
-            echo "            <aside class=\"layout-sidebar-first\" role=\"complementary\">
+              <div class=\"layout-content\">
+                ";
+        // line 108
+        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), "html", null, true));
+        echo "
+              </div>";
+        // line 110
+        echo "
               ";
-            // line 109
+        // line 111
+        if ($this->getAttribute(($context["page"] ?? null), "sidebar_first", array())) {
+            // line 112
+            echo "                <aside class=\"layout-sidebar-first\" role=\"complementary\">
+                  ";
+            // line 113
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "sidebar_first", array()), "html", null, true));
             echo "
-            </aside>
-          ";
-        }
-        // line 112
-        echo "
-          ";
-        // line 113
-        if ($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())) {
-            // line 114
-            echo "            <aside class=\"layout-sidebar-second\" role=\"complementary\">
+                </aside>
               ";
-            // line 115
+        }
+        // line 116
+        echo "
+              ";
+        // line 117
+        if ($this->getAttribute(($context["page"] ?? null), "sidebar_second", array())) {
+            // line 118
+            echo "                <aside class=\"layout-sidebar-second\" role=\"complementary\">
+                  ";
+            // line 119
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "sidebar_second", array()), "html", null, true));
             echo "
-            </aside>
-          ";
+                </aside>
+              ";
         }
-        // line 118
+        // line 122
         echo "
-        </main>
+            </main>
 
-        ";
-        // line 121
-        if ($this->getAttribute(($context["page"] ?? null), "footer", array())) {
-            // line 122
-            echo "          <footer role=\"contentinfo\">
             ";
-            // line 123
+        // line 125
+        if ($this->getAttribute(($context["page"] ?? null), "footer", array())) {
+            // line 126
+            echo "              <footer role=\"contentinfo\">
+                ";
+            // line 127
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, $this->getAttribute(($context["page"] ?? null), "footer", array()), "html", null, true));
             echo "
-          </footer>
-        ";
+              </footer>
+            ";
         }
-        // line 126
-        echo "      </div>
+        // line 130
+        echo "          </div>
 
-    </div>
+        </div>
 
-  </div>";
-        // line 131
-        echo "</section>
+      </div>";
+        // line 135
+        echo "    </section>
 
-<footer id=\"site-footer\">
+    <footer id=\"site-footer\">
 
-</footer>
+    </footer>
+
+  </div>
+
+</div>
 ";
     }
 
@@ -204,7 +212,7 @@ class __TwigTemplate_fa31dfad43ad4c8704e46a3eec068eb1d479de9bfa6df950b831bdb5e7e
 
     public function getDebugInfo()
     {
-        return array (  187 => 131,  181 => 126,  175 => 123,  172 => 122,  170 => 121,  165 => 118,  159 => 115,  156 => 114,  154 => 113,  151 => 112,  145 => 109,  142 => 108,  140 => 107,  137 => 106,  133 => 104,  129 => 102,  123 => 98,  118 => 96,  113 => 94,  108 => 92,  101 => 88,  70 => 59,  64 => 58,  61 => 57,  55 => 56,  43 => 46,);
+        return array (  191 => 135,  185 => 130,  179 => 127,  176 => 126,  174 => 125,  169 => 122,  163 => 119,  160 => 118,  158 => 117,  155 => 116,  149 => 113,  146 => 112,  144 => 111,  141 => 110,  137 => 108,  133 => 106,  127 => 102,  122 => 100,  117 => 98,  112 => 96,  105 => 92,  74 => 63,  68 => 62,  65 => 61,  59 => 60,  43 => 46,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -263,95 +271,103 @@ class __TwigTemplate_fa31dfad43ad4c8704e46a3eec068eb1d479de9bfa6df950b831bdb5e7e
  */
 #}
 
-<header id=\"site-header\" class=\"sticky-top\">
-  <div class=\"container-fluid\">
-    <div class=\"row\">
-      <div class=\"col\">
-        <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
-        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarToggler\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
-          <span class=\"navbar-toggler-icon\"></span>
-        </button>
-        <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">
-          {% if(page.brand) %} {{ page.brand }} {% endif %}
-          <!-- <a class=\"navbar-brand\" href=\"#\"></a> -->
-          {% if(page.primary_menu) %} {{ page.primary_menu }} {% endif %}
-          <!-- <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
-            <li class=\"nav-item active\">
-              <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link\" href=\"#\">Link</a>
-            </li>
-            <li class=\"nav-item\">
-              <a class=\"nav-link disabled\" href=\"#\">Disabled</a>
-            </li>
-          </ul> -->
-          <form class=\"form-inline my-2 my-lg-0\">
-            <input class=\"form-control form-control-sm mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
-            <button class=\"btn btn-sm btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
-          </form>
+<div class=\"page-wraper\">
+
+  <div class=\"page\">
+
+    <header id=\"site-header\" class=\"sticky-top\">
+      <div class=\"container-fluid\">
+        <div class=\"row\">
+          <div class=\"col\">
+            <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">
+            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarToggler\" aria-controls=\"navbarToggler\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
+              <span class=\"navbar-toggler-icon\"></span>
+            </button>
+            <div class=\"collapse navbar-collapse\" id=\"navbarToggler\">
+              {% if(page.brand) %} {{ page.brand }} {% endif %}
+              <!-- <a class=\"navbar-brand\" href=\"#\"></a> -->
+              {% if(page.primary_menu) %} {{ page.primary_menu }} {% endif %}
+              <!-- <ul class=\"navbar-nav mr-auto mt-2 mt-lg-0\">
+                <li class=\"nav-item active\">
+                  <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>
+                </li>
+                <li class=\"nav-item\">
+                  <a class=\"nav-link\" href=\"#\">Link</a>
+                </li>
+                <li class=\"nav-item\">
+                  <a class=\"nav-link disabled\" href=\"#\">Disabled</a>
+                </li>
+              </ul> -->
+              <form class=\"form-inline my-2 my-lg-0\">
+                <input class=\"form-control form-control-sm mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">
+                <button class=\"btn btn-sm btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>
+              </form>
+            </div>
+          </nav>
+          </div>
         </div>
-      </nav>
       </div>
-    </div>
+    </header>
+
+    <section id=\"site-content\">
+      <div class=\"container\">
+
+        <div class=\"row\">
+
+          <div class=\"col\">
+            <header role=\"banner\">
+              {{ page.header }}
+            </header>
+
+
+            {{ page.secondary_menu }}
+
+            {{ page.breadcrumb }}
+
+            {{ page.highlighted }}
+
+            {{ page.help }}
+
+            <main role=\"main\">
+              <a id=\"main-content\" tabindex=\"-1\"></a>{# link is in html.html.twig #}
+
+              <div class=\"layout-content\">
+                {{ page.content }}
+              </div>{# /.layout-content #}
+
+              {% if page.sidebar_first %}
+                <aside class=\"layout-sidebar-first\" role=\"complementary\">
+                  {{ page.sidebar_first }}
+                </aside>
+              {% endif %}
+
+              {% if page.sidebar_second %}
+                <aside class=\"layout-sidebar-second\" role=\"complementary\">
+                  {{ page.sidebar_second }}
+                </aside>
+              {% endif %}
+
+            </main>
+
+            {% if page.footer %}
+              <footer role=\"contentinfo\">
+                {{ page.footer }}
+              </footer>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </div>{# /.container #}
+    </section>
+
+    <footer id=\"site-footer\">
+
+    </footer>
+
   </div>
-</header>
 
-<section id=\"site-content\">
-  <div class=\"container\">
-
-    <div class=\"row\">
-
-      <div class=\"col\">
-        <header role=\"banner\">
-          {{ page.header }}
-        </header>
-
-
-        {{ page.secondary_menu }}
-
-        {{ page.breadcrumb }}
-
-        {{ page.highlighted }}
-
-        {{ page.help }}
-
-        <main role=\"main\">
-          <a id=\"main-content\" tabindex=\"-1\"></a>{# link is in html.html.twig #}
-
-          <div class=\"layout-content\">
-            {{ page.content }}
-          </div>{# /.layout-content #}
-
-          {% if page.sidebar_first %}
-            <aside class=\"layout-sidebar-first\" role=\"complementary\">
-              {{ page.sidebar_first }}
-            </aside>
-          {% endif %}
-
-          {% if page.sidebar_second %}
-            <aside class=\"layout-sidebar-second\" role=\"complementary\">
-              {{ page.sidebar_second }}
-            </aside>
-          {% endif %}
-
-        </main>
-
-        {% if page.footer %}
-          <footer role=\"contentinfo\">
-            {{ page.footer }}
-          </footer>
-        {% endif %}
-      </div>
-
-    </div>
-
-  </div>{# /.container #}
-</section>
-
-<footer id=\"site-footer\">
-
-</footer>
+</div>
 ", "themes/eva/templates/layout/page.html.twig", "/Volumes/DATA-01/03-WEBSITE/cci/themes/eva/templates/layout/page.html.twig");
     }
 }

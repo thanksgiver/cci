@@ -10,6 +10,7 @@ html{
 
 #site-header{
   border-bottom: 1px solid $gray-200;
+  top: 0 !important;
   @include single-box-shadow(0, 0, 3rem, null, rgba(black, 0.15), null);
 }//#site-header
 

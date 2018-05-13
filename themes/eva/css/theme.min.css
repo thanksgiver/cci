@@ -6942,6 +6942,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #site-header {
   border-bottom: 1px solid #e4e5e5;
+  top: 0 !important;
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.15); }
 
 #site-content {

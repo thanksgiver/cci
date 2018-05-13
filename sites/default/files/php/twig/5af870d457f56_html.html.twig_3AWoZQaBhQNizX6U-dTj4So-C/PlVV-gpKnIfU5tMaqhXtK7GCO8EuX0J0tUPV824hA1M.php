@@ -16,13 +16,13 @@ class __TwigTemplate_f2b31507ffbc7b2603e640ce5d39880e388ec989c98d78ed349dd0db2ca
     protected function doDisplay(array $context, array $blocks = array())
     {
         $tags = array();
-        $filters = array("raw" => 29, "safe_join" => 30, "t" => 40);
+        $filters = array("raw" => 29, "safe_join" => 30);
         $functions = array();
 
         try {
             $this->env->getExtension('Twig_Extension_Sandbox')->checkSecurity(
                 array(),
-                array('raw', 'safe_join', 't'),
+                array('raw', 'safe_join'),
                 array()
             );
         } catch (Twig_Sandbox_SecurityError $e) {
@@ -68,27 +68,19 @@ class __TwigTemplate_f2b31507ffbc7b2603e640ce5d39880e388ec989c98d78ed349dd0db2ca
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["attributes"] ?? null), "html", null, true));
         echo ">
     ";
-        // line 39
-        echo "    <a href=\"#main-content\" class=\"invisible\">
-      ";
-        // line 40
-        echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(t("Skip to main content")));
-        echo "
-    </a>
-    ";
-        // line 42
+        // line 35
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page_top"] ?? null), "html", null, true));
         echo "
     ";
-        // line 43
+        // line 36
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page"] ?? null), "html", null, true));
         echo "
     ";
-        // line 44
+        // line 37
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["page_bottom"] ?? null), "html", null, true));
         echo "
     <js-bottom-placeholder token=\"";
-        // line 45
+        // line 38
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->renderVar(($context["placeholder_token"] ?? null)));
         echo "\">
   </body>
@@ -108,7 +100,7 @@ class __TwigTemplate_f2b31507ffbc7b2603e640ce5d39880e388ec989c98d78ed349dd0db2ca
 
     public function getDebugInfo()
     {
-        return array (  92 => 45,  88 => 44,  84 => 43,  80 => 42,  75 => 40,  72 => 39,  68 => 34,  63 => 32,  59 => 31,  55 => 30,  51 => 29,  46 => 27,  43 => 26,);
+        return array (  84 => 38,  80 => 37,  76 => 36,  72 => 35,  68 => 34,  63 => 32,  59 => 31,  55 => 30,  51 => 29,  46 => 27,  43 => 26,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -155,13 +147,6 @@ class __TwigTemplate_f2b31507ffbc7b2603e640ce5d39880e388ec989c98d78ed349dd0db2ca
     <js-placeholder token=\"{{ placeholder_token|raw }}\">
   </head>
   <body{{ attributes }}>
-    {#
-      Keyboard navigation/accessibility link to main content section in
-      page.html.twig.
-    #}
-    <a href=\"#main-content\" class=\"invisible\">
-      {{ 'Skip to main content'|t }}
-    </a>
     {{ page_top }}
     {{ page }}
     {{ page_bottom }}
