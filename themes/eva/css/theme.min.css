@@ -6924,6 +6924,9 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: white; } }
+.invisible {
+  display: none !important; }
+
 @media (max-width: 575.98px) {
   html {
     font-size: 16px; } }
