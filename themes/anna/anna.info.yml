@@ -1,0 +1,8 @@
+name: Anna
+type: theme
+base theme: classy
+description: ccifellowship
+package: CCI
+core: 8.x
+version: 8.x-1.0
+screenshot: anna.png
