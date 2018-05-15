@@ -7,14 +7,3 @@ function eva_preprocess_menu_local_task(&$variables)
     $variables['link']['#options']['attributes']['class'][] = 'btn-success';
     $variables['link']['#options']['attributes']['role'][] = 'button';
 }
-
-// function eva_preprocess_region(&$variables)
-// {
-//     $elements = $variables['elements'];
-//     if (isset($elements['#region']) && $elements['#region']=='primary_menu') {
-//         $variables['attributes']['class'][] = 'navbar-nav';
-//         $variables['attributes']['class'][] = 'mr-auto';
-//         $variables['attributes']['class'][] = 'mt-2';
-//         $variables['attributes']['class'][] = 'mt-lg-0';
-//     }
-// }

@@ -150,7 +150,7 @@ module.exports = function(grunt) {
     watch: {
       options: {
         nospawn: true,
-        livereload: true,
+        livereload: 3333,
       },
       js: {
         files: ['<%= pkg.dev_js %>/**/*.js'],

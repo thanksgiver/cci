@@ -1,46 +1,61 @@
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1526230761') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Regular.otf?1525812872') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1526230760') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Light.otf?1525812872') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans CJK";
-  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1526230759') format('opentype');
+  src: url('../fonts/NotoSansCJKsc/NotoSansCJKsc-Bold.otf?1525812871') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1526230768') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf?1525812875') format('opentype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1526230766') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1525812875') format('opentype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1526230765') format('opentype');
+  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf?1525812874') format('opentype');
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1526230757') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Regular.ttf?1525812871') format('truetype');
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1526230757') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Light.ttf?1525812871') format('truetype');
   font-weight: 300;
   font-style: normal; }
 @font-face {
   font-family: "Noto Sans";
-  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1526230757') format('truetype');
+  src: url('../fonts/NotoSans/NotoSans-Bold.ttf?1525812870') format('truetype');
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: "Noto Serif";
+  src: url('../fonts/NotoSerif/NotoSerif-Regular.ttf?1505949634') format('truetype');
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Noto Serif";
+  src: url('../fonts/NotoSerif/NotoSerif-Light.ttf?1505949634') format('truetype');
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: "Noto Serif";
+  src: url('../fonts/NotoSerif/NotoSerif-Bold.ttf?1505949634') format('truetype');
   font-weight: 500;
   font-style: normal; }
 :root {
@@ -93,7 +108,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Noto Serif CJK";
+  font-family: "Noto Serif CJK", "Noto Serif";
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
@@ -339,7 +354,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #313333; }
 
 h1, .h1 {
@@ -367,22 +382,22 @@ h6, .h6 {
 .display-1 {
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.5; }
 
 .display-2 {
   font-size: 1.2rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.5; }
 
 .display-3 {
   font-size: 1.15rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.5; }
 
 .display-4 {
   font-size: 1.1rem;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.5; }
 
 hr {
   margin-top: 1rem;
@@ -430,19 +445,20 @@ mark,
 
 body {
   padding: 1rem;
-  font-family: "Noto Serif CJK"; }
+  font-family: "Noto Serif CJK", "Noto Serif"; }
 
 ol.bible-reference,
 ul.bible-reference {
   padding: 0;
   margin: 1rem 2rem;
   font-size: 0.8rem;
-  font-style: italic; }
+  font-style: italic;
+  color: #898e8e; }
   ol.bible-reference li,
   ul.bible-reference li {
-    border-bottom: 1px dotted #cacccc; }
+    border-bottom: 1px dotted #e4e5e5; }
 
 sup {
   color: #F03C07;
   font-weight: 500;
-  font-family: "Noto Sans CJK"; }
+  font-family: "Noto Sans CJK", "Noto Sans"; }

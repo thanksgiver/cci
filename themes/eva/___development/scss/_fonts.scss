@@ -12,3 +12,8 @@
 @include font-face('Noto Sans',font-files("NotoSans/NotoSans-Regular.ttf"), null, normal, normal);
 @include font-face('Noto Sans',font-files("NotoSans/NotoSans-Light.ttf"), null, 300, normal);
 @include font-face('Noto Sans',font-files("NotoSans/NotoSans-Bold.ttf"), null, 500, normal);
+
+// Noto Serif
+@include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Regular.ttf"), null, normal, normal);
+@include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Light.ttf"), null, 300, normal);
+@include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Bold.ttf"), null, 500, normal);

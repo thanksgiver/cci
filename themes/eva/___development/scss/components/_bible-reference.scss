@@ -4,5 +4,6 @@ ul.bible-reference {
   margin: $spacer $spacer * 2;
   font-size: 0.8rem;
   font-style: italic;
-  li{border-bottom: 1px dotted $gray-300;}
+  color: $gray-550;
+  li{border-bottom: 1px dotted $gray-200;}
 }
