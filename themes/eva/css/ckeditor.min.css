@@ -462,3 +462,6 @@ sup {
   color: #F03C07;
   font-weight: 500;
   font-family: "Noto Sans CJK", "Noto Sans"; }
+
+p {
+  text-indent: 2rem; }
