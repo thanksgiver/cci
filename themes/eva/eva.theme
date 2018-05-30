@@ -13,26 +13,35 @@ function eva_preprocess_field(&$variables, $hook)
     $element = $variables['element'];
     if ($element['#field_name']=='field_sermon_pastor') {
         $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
     }
 
     if ($element['#field_name']=='field_tags') {
         $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
+    }
+
+    if ($element['#field_name']=='field_tag') {
+        $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
     }
 
     if ($element['#field_name']=='field_sermon_read') {
         $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
     }
 
     if ($element['#field_name']=='field_sermon_text') {
         $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
     }
 
     if ($element['#field_name']=='field_sermon_related_bible_book') {
         $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
     }
 
     if ($element['#field_name']=='body') {
         $variables['attributes']['class'][] = 'col-12';
-        $variables['attributes']['class'][] = 'border-top';
     }
 }

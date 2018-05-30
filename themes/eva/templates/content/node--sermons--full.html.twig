@@ -81,13 +81,13 @@
   {{ title_suffix }}
 
   {% if display_submitted %}
-    <footer class='border-bottom'>
+    <div class='publish-info'>
       {{ author_picture }}
       <div{{ author_attributes }}>
         {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
         {{ metadata }}
       </div>
-    </footer>
+    </div>
   {% endif %}
 
   <div{{ content_attributes.addClass('row') }}>
