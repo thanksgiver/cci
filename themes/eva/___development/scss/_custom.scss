@@ -119,10 +119,10 @@ $yiq-text-light: $white;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-caret:              true;
+$enable-caret:              false;
 $enable-rounded:            true;
-$enable-shadows:            true;
-$enable-gradients:          true;
+$enable-shadows:            false;
+$enable-gradients:          false;
 $enable-transitions:        true;
 $enable-hover-media-query:  false; // Deprecated, no longer affects any compiled CSS
 $enable-grid-classes:       true;

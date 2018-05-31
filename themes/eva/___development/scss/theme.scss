@@ -23,7 +23,7 @@
 // @import "../../node_modules/bootstrap/scss/card";
 @import "../../node_modules/bootstrap/scss/breadcrumb";
 @import "../../node_modules/bootstrap/scss/pagination";
-// @import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/badge";
 // @import "../../node_modules/bootstrap/scss/jumbotron";
 @import "../../node_modules/bootstrap/scss/alert";
 // @import "../../node_modules/bootstrap/scss/progress";
@@ -52,3 +52,5 @@
 @import "components/bible-reference";
 @import "components/sup";
 @import "components/metabox";
+@import "components/alert";
+@import "components/normal-link";

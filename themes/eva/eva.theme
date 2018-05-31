@@ -10,7 +10,7 @@ function eva_preprocess_menu_local_task(&$variables)
 
 function eva_preprocess_field(&$variables, $hook)
 {
-    $element = $variables['element'];
+    $element =& $variables['element'];
     if ($element['#field_name']=='field_sermon_pastor') {
         $variables['attributes']['class'][] = 'col-6';
         $variables['attributes']['class'][] = 'metabox';
@@ -43,5 +43,21 @@ function eva_preprocess_field(&$variables, $hook)
 
     if ($element['#field_name']=='body') {
         $variables['attributes']['class'][] = 'col-12';
+        $variables['attributes']['class'][] = 'py-4';
+    }
+}
+
+function eva_preprocess_input(&$variables)
+{
+    $element =& $variables['element'];
+    if ($element['#id']=='edit-name' || $element['#id']=='edit-pass') {
+        $variables['attributes']['class'][] = 'form-control';
+        $variables['attributes']['class'][] = 'form-control-sm';
+    }
+    if ($element['#id']=='edit-submit') {
+        $variables['attributes']['class'][] = 'btn';
+        $variables['attributes']['class'][] = 'btn-sm';
+        $variables['attributes']['class'][] = 'btn-primary';
+        $variables['attributes']['class'][] = 'font-sans';
     }
 }
