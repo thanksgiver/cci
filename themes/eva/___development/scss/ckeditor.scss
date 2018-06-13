@@ -11,6 +11,7 @@
 body{
   padding: $spacer;
   font-family: $font-family-serif;
+  letter-spacing: 0.0618rem;
 }
 
 @import "components/bible-reference";

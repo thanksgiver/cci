@@ -445,7 +445,8 @@ mark,
 
 body {
   padding: 1rem;
-  font-family: "Noto Serif CJK", "Noto Serif"; }
+  font-family: "Noto Serif CJK", "Noto Serif";
+  letter-spacing: 0.0618rem; }
 
 ol.bible-reference,
 ul.bible-reference {
