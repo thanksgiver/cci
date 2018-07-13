@@ -66,7 +66,7 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #75A342;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
@@ -74,7 +74,7 @@
   --gray-dark: #4a4d4d;
   --primary: #F03C07;
   --secondary: #7c8181;
-  --success: #28a745;
+  --success: #75A342;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -453,8 +453,8 @@ ul.bible-reference {
   padding: 0;
   margin: 1rem 2rem;
   font-size: 0.8rem;
-  font-style: italic;
-  color: #898e8e; }
+  font-family: "Noto Sans CJK", "Noto Sans";
+  color: #4a4d4d; }
   ol.bible-reference li,
   ul.bible-reference li {
     border-bottom: 1px dotted #e4e5e5; }

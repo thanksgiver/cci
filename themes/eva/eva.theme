@@ -41,6 +41,11 @@ function eva_preprocess_field(&$variables, $hook)
         $variables['attributes']['class'][] = 'metabox';
     }
 
+    if ($element['#field_name']=='field_related_doctrine') {
+        $variables['attributes']['class'][] = 'col-6';
+        $variables['attributes']['class'][] = 'metabox';
+    }
+
     if ($element['#field_name']=='body') {
         $variables['attributes']['class'][] = 'col-12';
         $variables['attributes']['class'][] = 'py-4';
