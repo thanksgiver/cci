@@ -187,10 +187,10 @@ $paragraph-margin-bottom:   1rem;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
+  sm: 530px,
+  md: 590px,
+  lg: 800px,
+  xl: 900px
 );
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -212,8 +212,8 @@ $container-max-widths: (
   xs: 320px,
   sm: 480px,
   md: 540px,
-  lg: 640px,
-  xl: 768px
+  lg: 750px,
+  xl: 850px
 );
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
