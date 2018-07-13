@@ -6257,16 +6257,16 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: 12px; } }
 @media (min-width: 530px) and (max-width: 589.98px) {
   html {
-    font-size: 14px; } }
+    font-size: 13px; } }
 @media (min-width: 590px) and (max-width: 799.98px) {
   html {
-    font-size: 16px; } }
+    font-size: 14px; } }
 @media (min-width: 800px) and (max-width: 899.98px) {
   html {
-    font-size: 18px; } }
+    font-size: 15px; } }
 @media (min-width: 900px) {
   html {
-    font-size: 20px; } }
+    font-size: 16px; } }
 
 html, body {
   height: 100%; }
