@@ -1,5 +1,5 @@
 <?php
-function eva_preprocess_menu_local_task(&$variables)
+function grace_preprocess_menu_local_task(&$variables)
 {
     $variables['link']['#options']['attributes']['class'][] = 'font-sans';
     $variables['link']['#options']['attributes']['class'][] = 'btn';
@@ -8,7 +8,7 @@ function eva_preprocess_menu_local_task(&$variables)
     $variables['link']['#options']['attributes']['role'][] = 'button';
 }
 
-function eva_preprocess_field(&$variables, $hook)
+function grace_preprocess_field(&$variables, $hook)
 {
     $element =& $variables['element'];
     if ($element['#field_name']=='field_sermon_pastor') {
@@ -52,7 +52,7 @@ function eva_preprocess_field(&$variables, $hook)
     }
 }
 
-function eva_preprocess_input(&$variables)
+function grace_preprocess_input(&$variables)
 {
     $element =& $variables['element'];
     if ($element['#id']=='edit-name' || $element['#id']=='edit-pass') {
