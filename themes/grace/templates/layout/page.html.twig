@@ -49,13 +49,14 @@
 #}
 <div class="website-root">
 
-{% if page.header %}
 {# REGIONS :: page.header #}
   <header class="header-banner navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-    {{ page.header }}
+    {% if page.header %}
+      {{ page.header }}
+    {% endif %}
   </header>
 {# REGIONS :: page.header #}
-{% endif %}
+
 
 <div class="container-fuild">
   <div class="row flex-xl-nowrap">
