@@ -1,0 +1,30 @@
+name: Grace
+type: theme
+base theme: stable
+description: ccifellowship
+package: CCI
+core: 8.x
+version: 8.x-1.0
+screenshot: screenshot.png
+logo: images/logo.svg
+libraries:
+  - grace/global-styling
+  - grace/global-scripts
+ckeditor_stylesheets:
+  - css/ckeditor.min.css
+regions:
+  header: Header
+  brand: 'Brand'
+  tagline: 'Tagline'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  search: 'Search'
+  featured_bottom: 'Featured bottom'
+  footer: 'Footer'
+  copyright: 'Copyright'

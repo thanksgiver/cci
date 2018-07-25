@@ -1,0 +1,8 @@
+header.header-banner{
+  border-bottom: 1px solid $border-color;
+  height: 0.5rem;
+  background-color: $header-background;
+  position: sticky;
+  top: 0;
+  z-index: $zindex-header;
+}

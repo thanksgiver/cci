@@ -1,0 +1,9 @@
+.sidebar-right{
+  // font-size: 80%;
+  position: sticky;
+  height: calc(100vh - 2.5rem); //header height + footer height
+  top: 0.5rem;
+  z-index: $zindex-sidebar;
+  overflow-y: auto;
+  order:2;
+}

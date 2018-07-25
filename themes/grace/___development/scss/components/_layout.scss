@@ -1,0 +1,17 @@
+
+html{
+  @include media-breakpoint-only(xs) { font-size: 14px; }
+  @include media-breakpoint-only(sm) { font-size: 14px; }
+  @include media-breakpoint-only(md) { font-size: 16px; }
+  @include media-breakpoint-only(lg) { font-size: 18px; }
+  @include media-breakpoint-only(xl) { font-size: 20px; }
+  body{
+    // @include font-smoothing;
+    @include screen-size-marker;
+    @import 'header-banner';
+    @import 'sidebar-left';
+    @import 'sidebar-right';
+    @import 'main-content';
+    @import 'footer';
+  }
+}

@@ -1,0 +1,10 @@
+.normal-link{
+  a{
+    color: $gray-600;
+    text-decoration: none;
+    &:hover{
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}

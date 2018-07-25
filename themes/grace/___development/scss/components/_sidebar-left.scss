@@ -1,0 +1,17 @@
+.sidebar-left{
+  order:0;
+  // font-size: 80%;
+  background-color: $gray-150;
+  @include media-breakpoint-up(md) {
+    position: sticky;
+    height: calc(100vh - 2.5rem); //header height + footer height
+    top: 0.5rem;
+    z-index: $zindex-sidebar;
+    overflow-y: auto;
+    border-right: 1px solid $border-color;
+  }
+
+  @import 'sidebar-left/logo-container';
+  @import 'sidebar-left/navigation';
+
+}

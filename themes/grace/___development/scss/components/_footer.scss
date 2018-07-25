@@ -1,0 +1,13 @@
+footer.site-footer{
+  border-top: 1px solid $border-color;
+  height: 2rem;
+  background-color: $white;
+  position: sticky;
+  z-index: $zindex-header;
+  p{
+    margin-bottom: 0;
+    small{
+      color: $gray-500;
+    }
+  }
+}
