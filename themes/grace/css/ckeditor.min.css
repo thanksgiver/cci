@@ -72,7 +72,7 @@
   --white: #fff;
   --gray: #7c8181;
   --gray-dark: #4a4d4d;
-  --primary: #F03C07;
+  --primary: #E85A43;
   --secondary: #7c8181;
   --success: #75A342;
   --info: #17a2b8;
@@ -112,7 +112,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.75;
-  color: #313333;
+  color: #565a5a;
   text-align: left;
   background-color: #fff; }
 
@@ -190,12 +190,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #F03C07;
+  color: #E85A43;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #f95e31;
+    color: #ee8270;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {

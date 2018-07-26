@@ -101,10 +101,10 @@
         {% if page.primary_menu %}
         <nav class="navigation">
           {# REGIONS :: page.primary_menu #}
-          {{ page.primary_menu }}
-          <!-- <div class="primary-menu">
+          <div class="primary-menu">
             <div id="accordian">
-              <ul>
+              {{ page.primary_menu }}
+              {# <ul>
                   <li>
                       <h3><a href="#">About Us</a></h3>
                       <ul>
@@ -174,9 +174,9 @@
                           <li><a href="#">Settings</a></li>
                       </ul>
                   </li>
-              </ul>
+              </ul> #}
             </div>{# /#accordian #}
-          </div>{# /.primary-menu #} -->
+          </div>{# /.primary-menu #}
           {# REGIONS :: page.primary_menu #}
         </nav>{# /.navigation #}
         {% endif %}

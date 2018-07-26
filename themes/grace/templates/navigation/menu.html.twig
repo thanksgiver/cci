@@ -1,0 +1,135 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+{% import _self as menus %}
+
+{#
+  We call a macro which calls itself to render the full tree.
+  @see http://twig.sensiolabs.org/doc/tags/macro.html
+#}
+{{ menus.menu_links(items, attributes, 0) }}
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% import _self as menus %}
+  {% if items %}
+
+    {% if menu_level == 0 %}
+      <ul{{ attributes }}>
+    {% else %}
+      <ul>
+    {% endif %}
+
+
+    {% for item in items %}
+      <li{{ item.attributes }}>
+        {% if menu_level == 0 %}
+
+          {% if item.is_expanded == 1 %}
+            <h3><a href="#">{{ item.title }}</a></h3>
+          {% else %}
+            <h3>{{ link(item.title, item.url) }}</h3>
+          {% endif %}
+
+
+        {% else %}
+          {{ link(item.title, item.url) }}
+        {% endif %}
+
+        {% if item.below %}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+
+
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+
+{# <ul>
+    <li>
+        <h3><a href="#">About Us</a></h3>
+        <ul>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Graphs</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </li>
+    <li>
+        <h3><a href="#">Tasks</a></h3>
+        <ul>
+            <li><a href="#">Today's tasks</a></li>
+            <li>
+                <a href="#">DrillDown</a>
+                <ul>
+                    <li><a href="#">Today's tasks</a></li>
+                    <li><a href="#">Urgent</a></li>
+                    <li>
+                        <a href="#">Overdues</a>
+                        <ul>
+                            <li><a href="#">Today's tasks</a></li>
+                            <li><a href="#">Urgent</a></li>
+                            <li><a href="#">Overdues</a></li>
+                            <li><a href="#">Recurring</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Recurring</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Overdues</a>
+                <ul>
+                    <li><a href="#">Today's tasks</a></li>
+                    <li><a href="#">Urgent</a></li>
+                    <li><a href="#">Overdues</a></li>
+                    <li><a href="#">Recurring</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recurring</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </li>
+    <li>
+        <h3><a href="#">Calendar</a></h3>
+        <ul>
+            <li><a href="#">Current Month</a></li>
+            <li><a href="#">Current Week</a></li>
+            <li><a href="#">Previous Month</a></li>
+            <li><a href="#">Previous Week</a></li>
+            <li><a href="#">Next Month</a></li>
+            <li><a href="#">Next Week</a></li>
+            <li><a href="#">Team Calendar</a></li>
+            <li><a href="#">Private Calendar</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </li>
+    <li>
+        <h3><a href="#">Favourites</a></h3>
+        <ul>
+            <li><a href="#">Global favs</a></li>
+            <li><a href="#">My favs</a></li>
+        </ul>
+    </li>
+</ul> #}
