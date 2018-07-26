@@ -6848,62 +6848,65 @@ a.text-dark:hover, a.text-dark:focus {
 @media (min-width: 2098px) {
   html {
     font-size: 22px; } }
-html body header.header-banner {
-  border-bottom: 1px solid #e4e5e5;
-  height: 0.5rem;
-  background-color: #E85A43;
-  position: sticky;
-  top: 0;
-  z-index: 100; }
-html body .sidebar-left {
-  order: 0;
-  background-color: #f1f2f2; }
-  @media (min-width: 1074px) {
-    html body .sidebar-left {
-      position: sticky;
-      height: calc(100vh - 2.5rem);
-      top: 0.5rem;
-      overflow-y: auto;
-      border-right: 1px solid #e4e5e5; } }
-  html body .sidebar-left .brand a.logo {
-    display: block;
-    min-width: 40%;
-    max-width: 75%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    text-decoration: none; }
-  html body .sidebar-left .brand a.title {
-    text-decoration: none; }
-    html body .sidebar-left .brand a.title h1, html body .sidebar-left .brand a.title h2, html body .sidebar-left .brand a.title h3, html body .sidebar-left .brand a.title h4, html body .sidebar-left .brand a.title h5, html body .sidebar-left .brand a.title h6 {
-      font-family: "Noto Sans CJK", "Noto Sans";
-      font-weight: normal;
-      text-align: center;
+html body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+  html body header.header-banner {
+    border-bottom: 1px solid #e4e5e5;
+    height: 0.5rem;
+    background-color: #E85A43;
+    position: sticky;
+    top: 0;
+    z-index: 100; }
+  html body .sidebar-left {
+    order: 0;
+    background-color: #f1f2f2; }
+    @media (min-width: 1074px) {
+      html body .sidebar-left {
+        position: sticky;
+        height: calc(100vh - 2.5rem);
+        top: 0.5rem;
+        overflow-y: auto;
+        border-right: 1px solid #e4e5e5; } }
+    html body .sidebar-left .brand a.logo {
+      display: block;
+      min-width: 40%;
+      max-width: 75%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
       text-decoration: none; }
-      html body .sidebar-left .brand a.title h1 small, html body .sidebar-left .brand a.title h2 small, html body .sidebar-left .brand a.title h3 small, html body .sidebar-left .brand a.title h4 small, html body .sidebar-left .brand a.title h5 small, html body .sidebar-left .brand a.title h6 small {
-        display: block;
-        font-size: 10px;
+    html body .sidebar-left .brand a.title {
+      text-decoration: none; }
+      html body .sidebar-left .brand a.title h1, html body .sidebar-left .brand a.title h2, html body .sidebar-left .brand a.title h3, html body .sidebar-left .brand a.title h4, html body .sidebar-left .brand a.title h5, html body .sidebar-left .brand a.title h6 {
         font-family: "Noto Sans CJK", "Noto Sans";
-        text-transform: uppercase; }
-  html body .sidebar-left .logo-container {
-    width: 100%;
-    min-height: 150px;
-    text-align: center; }
-html body .sidebar-right {
-  position: sticky;
-  height: calc(100vh - 2.5rem);
-  top: 0.5rem;
-  overflow-y: auto;
-  order: 2; }
-html body footer.site-footer {
-  border-top: 1px solid #e4e5e5;
-  height: 2rem;
-  background-color: #fff;
-  position: sticky;
-  z-index: 100; }
-  html body footer.site-footer p {
-    margin-bottom: 0; }
-    html body footer.site-footer p small {
-      color: #969a9a; }
+        font-weight: normal;
+        text-align: center;
+        text-decoration: none; }
+        html body .sidebar-left .brand a.title h1 small, html body .sidebar-left .brand a.title h2 small, html body .sidebar-left .brand a.title h3 small, html body .sidebar-left .brand a.title h4 small, html body .sidebar-left .brand a.title h5 small, html body .sidebar-left .brand a.title h6 small {
+          display: block;
+          font-size: 10px;
+          font-family: "Noto Sans CJK", "Noto Sans";
+          text-transform: uppercase; }
+    html body .sidebar-left .logo-container {
+      width: 100%;
+      min-height: 150px;
+      text-align: center; }
+  html body .sidebar-right {
+    position: sticky;
+    height: calc(100vh - 2.5rem);
+    top: 0.5rem;
+    overflow-y: auto;
+    order: 2; }
+  html body footer.site-footer {
+    border-top: 1px solid #e4e5e5;
+    height: 2rem;
+    background-color: #fff;
+    position: sticky;
+    z-index: 100; }
+    html body footer.site-footer p {
+      margin-bottom: 0; }
+      html body footer.site-footer p small {
+        color: #969a9a; }
 
 /* Bootstrap */
 /* Override Bootstrap default variable */
