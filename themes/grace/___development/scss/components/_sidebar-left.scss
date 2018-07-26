@@ -11,6 +11,7 @@
     border-right: 1px solid $border-color;
   }
 
+  @import 'sidebar-left/site-brand';
   @import 'sidebar-left/logo-container';
   @import 'sidebar-left/navigation';
 

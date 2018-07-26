@@ -1,0 +1,23 @@
+table.table{
+  font-size: 0.8rem;
+  // font-family: $font-family-sans;
+  tbody{
+    td.views-field-title{
+      a{
+        &::before{
+          
+        }
+      }
+    }
+  }
+
+  a{
+    color: $body-color;
+    text-decoration: none;
+    @include transition-property(color);
+    @include transition-duration(.3s);
+    &:hover{
+      color: $primary;
+    }
+  }
+}

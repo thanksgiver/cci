@@ -60,8 +60,8 @@
 
 <div class="container-fuild">
   <div class="row flex-xl-nowrap">
-    <aside class="d-none d-lg-block col-12 col-lg-3 sidebar-left">
-      <div class="p-lg-3 p-xl-4">
+    <aside class="d-none d-md-block col-12 col-md-3 col-lg-2 col-xl-2 sidebar-left">
+      <div class="p-xs-2 p-sm-2 p-md-3 p-lg-4">
 
         {% if page.brand %}
         {# REGIONS :: page.brand #}
@@ -71,21 +71,36 @@
         {# REGIONS :: page.brand #}
         {% endif %}
 
-        {# REGIONS :: page.tagline #}
+        {# REGIONS :: page.primary_menu #}
+        {% if page.primary_menu %}
+        <nav class="navigation text-center">
+           {{ page.primary_menu }}
+        </nav>{# /.navigation #}
+        {% endif %}
+        {# REGIONS :: page.primary_menu #}
 
-        <blockquote class="blockquote pt-2 text-center">
+        {# REGIONS :: page.tagline #}
+        <div class="alert alert-secondary mt-2" role="alert">
+        <blockquote class="blockquote m-0">
           <p class="mb-0">神爱世人，甚至将他的独生子赐给他们，叫一切信他的，不致灭亡，反得永生。</p>
           <footer class="blockquote-footer">约翰福音<cite title="Source Title">3：16</cite></footer>
         </blockquote>
+        </div>
 
         {% if page.tagline %}
           {{ page.tagline }}
         {% endif %}
-
         {# REGIONS :: page.tagline #}
 
+      </div>
+    </aside>{# /.sidebar-left #}
+
+
+    <aside class="d-none d-lg-block col-lg-2 col-xl-2 sidebar-right">
+      <div class="p-xs-2 p-sm-2 p-md-3 p-lg-4">
+
         {# REGIONS :: page.search #}
-        <div class="search-container mb-5">
+        <div class="search-container mb-5 w-75 mx-auto">
           <div class="input-group">
           <input type="text" class="form-control" placeholder="{{ 'Keywords'|t }}" aria-label="Keyword" aria-describedby="search-button">
           <div class="input-group-append">
@@ -98,93 +113,6 @@
         {% endif %}
         {# REGIONS :: page.search #}
 
-        {% if page.primary_menu %}
-        <nav class="navigation">
-          {# REGIONS :: page.primary_menu #}
-          <div class="primary-menu">
-            <div id="accordian">
-              {{ page.primary_menu }}
-              {# <ul>
-                  <li>
-                      <h3><a href="#">About Us</a></h3>
-                      <ul>
-                          <li><a href="#">Reports</a></li>
-                          <li><a href="#">Search</a></li>
-                          <li><a href="#">Graphs</a></li>
-                          <li><a href="#">Settings</a></li>
-                      </ul>
-                  </li>
-                  <li>
-                      <h3><a href="#">Tasks</a></h3>
-                      <ul>
-                          <li><a href="#">Today's tasks</a></li>
-                          <li>
-                              <a href="#">DrillDown</a>
-                              <ul>
-                                  <li><a href="#">Today's tasks</a></li>
-                                  <li><a href="#">Urgent</a></li>
-                                  <li>
-                                      <a href="#">Overdues</a>
-                                      <ul>
-                                          <li><a href="#">Today's tasks</a></li>
-                                          <li><a href="#">Urgent</a></li>
-                                          <li><a href="#">Overdues</a></li>
-                                          <li><a href="#">Recurring</a></li>
-                                          <li><a href="#">Settings</a></li>
-                                      </ul>
-                                  </li>
-                                  <li><a href="#">Recurring</a></li>
-                                  <li><a href="#">Settings</a></li>
-                              </ul>
-                          </li>
-                          <li>
-                              <a href="#">Overdues</a>
-                              <ul>
-                                  <li><a href="#">Today's tasks</a></li>
-                                  <li><a href="#">Urgent</a></li>
-                                  <li><a href="#">Overdues</a></li>
-                                  <li><a href="#">Recurring</a></li>
-                                  <li><a href="#">Settings</a></li>
-                              </ul>
-                          </li>
-                          <li><a href="#">Recurring</a></li>
-                          <li><a href="#">Settings</a></li>
-                      </ul>
-                  </li>
-                  <li>
-                      <h3><a href="#">Calendar</a></h3>
-                      <ul>
-                          <li><a href="#">Current Month</a></li>
-                          <li><a href="#">Current Week</a></li>
-                          <li><a href="#">Previous Month</a></li>
-                          <li><a href="#">Previous Week</a></li>
-                          <li><a href="#">Next Month</a></li>
-                          <li><a href="#">Next Week</a></li>
-                          <li><a href="#">Team Calendar</a></li>
-                          <li><a href="#">Private Calendar</a></li>
-                          <li><a href="#">Settings</a></li>
-                      </ul>
-                  </li>
-                  <li>
-                      <h3><a href="#">Favourites</a></h3>
-                      <ul>
-                          <li><a href="#">Global favs</a></li>
-                          <li><a href="#">My favs</a></li>
-                          <li><a href="#">Team favs</a></li>
-                          <li><a href="#">Settings</a></li>
-                      </ul>
-                  </li>
-              </ul> #}
-            </div>{# /#accordian #}
-          </div>{# /.primary-menu #}
-          {# REGIONS :: page.primary_menu #}
-        </nav>{# /.navigation #}
-        {% endif %}
-      </div>
-    </aside>{# /.sidebar-left #}
-
-    <aside class="d-none d-xl-block col-xl-3 sidebar-right">
-      <div class="p-xl-4">
         <div class="card m-auto w-75">
           <img class="card-img-top" src="https://fakeimg.pl/360x180/?text=Hello" alt="Card image cap">
           <div class="card-body">
@@ -208,8 +136,8 @@
       </div>
     </aside>{# /.sidebar-right #}
 
-    <main class="col-12 col-lg-9 col-xl-6 main-content">
-      <div class="p-sm-3 p-md-3 p-lg-3 p-xl-4">
+    <main class="col-12 col-md-9 col-lg-8 col-xl-8 main-content">
+      <div class="p-xs-2 p-sm-2 p-md-3 p-lg-4 px-xl-5">
 
         {% if page.breadcrumb %}
         {# REGIONS :: page.breadcrumb #}

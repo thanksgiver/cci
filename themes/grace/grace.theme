@@ -4,7 +4,7 @@ function grace_preprocess_menu_local_task(&$variables)
     $variables['link']['#options']['attributes']['class'][] = 'font-sans';
     $variables['link']['#options']['attributes']['class'][] = 'btn';
     $variables['link']['#options']['attributes']['class'][] = 'btn-sm';
-    $variables['link']['#options']['attributes']['class'][] = 'btn-success';
+    $variables['link']['#options']['attributes']['class'][] = 'btn-outline-success';
     $variables['link']['#options']['attributes']['role'][] = 'button';
 }
 

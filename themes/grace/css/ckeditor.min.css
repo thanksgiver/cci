@@ -81,10 +81,10 @@
   --light: #e4e5e5;
   --dark: #4a4d4d;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
+  --breakpoint-sm: 562px;
+  --breakpoint-md: 1074px;
+  --breakpoint-lg: 1586px;
+  --breakpoint-xl: 2098px;
   --font-family-sans-serif: "Noto Sans", "Noto Sans CJK", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 

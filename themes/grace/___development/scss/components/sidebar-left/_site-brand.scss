@@ -11,6 +11,7 @@
   }
 
   a.title{
+    text-decoration: none;
     #{headings()}{
       font-family: $font-family-sans;
       font-weight: normal;
