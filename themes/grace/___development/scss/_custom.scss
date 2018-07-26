@@ -301,8 +301,8 @@ $h5-font-size:                $font-size-base * 1.15;
 $h6-font-size:                $font-size-base * 1.1;
 
 
-$headings-margin-top:         $spacer * 2;
-$headings-margin-bottom:      ($spacer / 2);
+$headings-margin-top:         $spacer;
+$headings-margin-bottom:      $spacer;
 $headings-font-family:        inherit;
 
 $headings-font-weight:        $font-weight-bold;
