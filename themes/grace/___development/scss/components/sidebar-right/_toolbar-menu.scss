@@ -1,0 +1,14 @@
+ul.toolbar-menu{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li{
+    a{
+      @extend .btn;
+      @extend .btn-outline-success;
+      @extend .btn-sm;
+      @extend .btn-block;
+      margin-bottom: 0.5rem;
+    }//a
+  }//li
+}

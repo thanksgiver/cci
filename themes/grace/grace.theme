@@ -8,6 +8,26 @@ function grace_preprocess_menu_local_task(&$variables)
     $variables['link']['#options']['attributes']['role'][] = 'button';
 }
 
+
+function grace_preprocess_block(&$variables, $hook)
+{
+    // kint($variables['elements']['#id']);
+    if ($variables['elements']['#id']=='kuaijiefangshi') {
+        $variables['attributes']['class'][] = 'alert';
+        $variables['attributes']['class'][] = 'alert-info';
+        $variables['attributes']['class'][] = 'mt-2';
+        $variables['attributes']['class'][] = 'pb-1';
+    }
+}
+
+function grace_theme_suggestions_alter(array &$suggestions, array $variables, $hook)
+{
+    $element =& $variables['element'];
+    if ($element['#type']=='search') {
+        $suggestions[] = 'grace--' . $hook;
+    }
+}
+
 function grace_preprocess_field(&$variables, $hook)
 {
     $element =& $variables['element'];
@@ -46,10 +66,10 @@ function grace_preprocess_field(&$variables, $hook)
         $variables['attributes']['class'][] = 'metabox';
     }
 
-    if ($element['#field_name']=='body') {
-        $variables['attributes']['class'][] = 'col-12';
-        $variables['attributes']['class'][] = 'py-4';
-    }
+    // if ($element['#field_name']=='body') {
+    //     $variables['attributes']['class'][] = 'col-12';
+    //     $variables['attributes']['class'][] = 'py-4';
+    // }
 }
 
 function grace_preprocess_input(&$variables)

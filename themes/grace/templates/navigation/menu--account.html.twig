@@ -31,7 +31,7 @@
   {% if items %}
     <div class="btn-group btn-group-sm mx-auto" role="group" aria-label="Primary Menu">
     {% for item in items %}
-        {{ link(item.title, item.url, attributes.addClass('btn btn-primary')) }}
+        {{ link(item.title, item.url, attributes.addClass('btn btn-secondary')) }}
     {% endfor %}
   </div>
   {% endif %}

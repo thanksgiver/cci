@@ -6,4 +6,6 @@
   // z-index: $zindex-sidebar;
   overflow-y: auto;
   order:2;
+
+  @import 'sidebar-right/toolbar-menu';
 }

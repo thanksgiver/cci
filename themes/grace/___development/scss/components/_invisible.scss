@@ -1,3 +1,11 @@
 .visually-hidden{
   display: none !important;
 }
+
+.invisible{
+  display: none !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  height: 0 !important;
+  content: '';
+}
