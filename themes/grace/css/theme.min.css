@@ -7810,3 +7810,20 @@ sup {
   .normal-link a:hover {
     color: #E85A43;
     text-decoration: underline; }
+
+.font-size-95 {
+  font-size: 95%; }
+.font-size-90 {
+  font-size: 90%; }
+.font-size-85 {
+  font-size: 85%; }
+.font-size-80 {
+  font-size: 80%; }
+.font-size-75 {
+  font-size: 75%; }
+.font-size-70 {
+  font-size: 70%; }
+.font-size-65 {
+  font-size: 65%; }
+.font-size-60 {
+  font-size: 60%; }
