@@ -1,0 +1,16 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/theme.min.css: {}
+      '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css': {}
+global-scripts:
+  version: 1.x
+  js:
+    js/popper.min.js: {}
+    js/bootstrap.min.js: {}
+    js/theme.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once

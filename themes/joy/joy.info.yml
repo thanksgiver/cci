@@ -1,0 +1,27 @@
+name: Joy
+type: theme
+base theme: stable
+description: ccifellowship
+package: CCI
+core: 8.x
+version: 8.x-1.0
+screenshot: screenshot.png
+logo: images/logo.svg
+libraries:
+  - joy/global-styling
+  - joy/global-scripts
+ckeditor_stylesheets:
+  - css/ckeditor.min.css
+regions:
+  page_top: 'Page top'
+  brand: 'Brand'
+  primary_menu: 'Primary menu'
+  search: 'Search'
+  header: 'Header'
+  breadcrumb: 'Breadcrumb'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  content: 'Content'
+  featured_bottom: 'Featured bottom'
+  footer: 'Footer'
+  page_bottom: 'Page bottom'

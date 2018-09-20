@@ -1,0 +1,5 @@
+// Form validation
+$form-feedback-margin-top:          $form-text-margin-top;
+$form-feedback-font-size:           $small-font-size;
+$form-feedback-valid-color:         theme-color("success");
+$form-feedback-invalid-color:       theme-color("danger");
