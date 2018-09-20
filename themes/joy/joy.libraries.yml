@@ -3,7 +3,7 @@ global-styling:
   css:
     base:
       css/theme.min.css: {}
-      '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css': {}
+      'https://use.fontawesome.com/releases/v5.3.1/css/all.css': {}
 global-scripts:
   version: 1.x
   js:

@@ -18,7 +18,7 @@
  *
  * Site identity:
  * - front_page: The URL of the front page. Use this instead of base_path when
- *   linking to the front page. This includes the language domain or prefix.
+ *   linking to the front page. This includes the language dobody or prefix.
  *
  * Page content (in order of occurrence in the default page.html.twig):
  * - messages: Status and error messages. Should be displayed prominently.
@@ -33,105 +33,152 @@
  * - page.primary_menu
  * - page.search
  * - page.breadcrumb
+ * - page.featured
+ * - page.book_navigation
+ * - page.help
  * - page.highlighted
- * - page.featured_top
  * - page.content
- * - page.featured_bottom
  * - page.footer
  * - page.page_bottom
  * @see template_preprocess_page()
  * @see html.html.twig
  */
 #}
-<div class="website-root">
+<div class="website">
 
-  <header class="root-header border-bottom">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Navbar</a>
+  <header class="layout-header">
+    <div class="header-top">
+      {% if page.brand %}
+      {{ page.brand }}
+      {% endif %}
+      <!-- <div class="container">
+        <div class="row align-items-end">
+          <div class="col">
+            <h1 class="website-title">Website Name</h1>
+          </div>
+          <div class="col text-right">
+            <h4 class="website-tagline">Tagline</h4>
+          </div>
+        </div>
+      </div> -->
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-  </header>
+    </div>{# /.header-top #}
 
-  <section class="root-body">
-    <div class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-8 col-sm-12 col-md-11 col-lg-10 col-xl-9">
-
-          <div class="main-breadcrumb mt-5">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Library</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Data</li>
-              </ol>
-            </nav>
-          </div><!-- .main-breadcrumb -->
-
-          <div class="main-highlighted my-3 border">
-            <div class="py-2 px-5 px-sm-2 px-md-3 px-lg-4 px-xl-5">
-              <p>highlighted</p>
-            </div><!-- .padding -->
-          </div><!-- .main-highlighted -->
-
-          <div class="main-featured-top my-3 border">
-            <div class="py-2 px-5 px-sm-2 px-md-3 px-lg-4 px-xl-5">
-              <p>featured-top</p>
-            </div><!-- .padding -->
-          </div><!-- .main-featured-top -->
-
-          <div class="main-content my-3 border">
-            <div class="p-5 p-sm-2 p-md-3 p-lg-4 p-xl-5">
-              <p>生命浩瀚，远超过我们肉眼所见；生命尚包括了属灵的现实。在这世上有许多的宗教，尝试着去回答人类最好奇的问题，就是生命的起源及生活的目的。基督徒的信仰似乎不过就是诸多宗教中的一个。但是，只有基督教宣称：人的问题只能在圣经中找到答案。圣经教导我们：有一位独一真神，他有父、子、圣灵三个不同位格，但却是一位永生真神。虽然圣经是世界上销售量最大的书籍，但人们却大大地忽略了圣经所教导的事实。因此，在过去数百年中，教会就编辑了一些纲要来帮助我们了解圣经。这些纲要叫做“使徒信经”，总共有十二条，如下所述</p>
-              <p>生命浩瀚，远超过我们肉眼所见；生命尚包括了属灵的现实。在这世上有许多的宗教，尝试着去回答人类最好奇的问题，就是生命的起源及生活的目的。基督徒的信仰似乎不过就是诸多宗教中的一个。但是，只有基督教宣称：人的问题只能在圣经中找到答案。圣经教导我们：有一位独一真神，他有父、子、圣灵三个不同位格，但却是一位永生真神。虽然圣经是世界上销售量最大的书籍，但人们却大大地忽略了圣经所教导的事实。因此，在过去数百年中，教会就编辑了一些纲要来帮助我们了解圣经。这些纲要叫做“使徒信经”，总共有十二条，如下所述</p>
-            </div><!-- .padding -->
-          </div><!-- .main-content -->
-
-          <div class="main-featured-bottom my-3 border">
-            <div class="py-2 px-5 px-sm-2 px-md-3 px-lg-4 px-xl-5">
-              <p>featured-bottom</p>
-            </div><!-- .padding -->
-          </div><!-- .main-featured-bottom -->
-
+    <div class="header-bottom">
+      <div class="navigationbar container">
+        <div class="row">
+          <div class="navigation col">
+            {% if page.primary_menu %}
+            {{ page.primary_menu }}
+            {% endif %}
+          </div>{# /.navigation #}
+          <div class="search col text-right">
+            {% if page.search %}
+            {{ page.search }}
+            {% endif %}
+          </div>{# /.search #}
         </div>
       </div>
-    </div>
-  </section>
+    </div>{# /.header-bottom #}
 
-  <footer class="root-footer fixed-bottom border-top">
+  </header>{# /header #}
+
+  <section class="layout-body">
     <div class="container">
-      <div class="row justify-content-md-center py-1">
-        <p class="copyright">&copy; 2018 凯姆斯科特自由归正教会差传事工委员会版权所有</p>
-      </div>
+      <div class="row">
+        {% if page.breadcrumb %}
+        {{ page.breadcrumb }}
+        {% endif %}
+        <!-- <div class="body-breadcrumb col pt-1 mb-1 border-bottom">
+          Lorem ipsum / dolor sit amet / consectetur adipisicing elit
+        </div>{# /div.body-breadcrumb #} -->
+
+        <!-- <div class="w-100"></div> -->
+
+        {% if page.featured %}
+        {{ page.featured }}
+        <!-- <div class="body-top col py-3">
+          <div class="row">
+              <div class="col-3">
+                <img src="https://fakeimg.pl/200x200/?text=Hello" class="img-thumbnail rounded">
+              </div>
+              <div class="col-9">
+                <h1>Heading</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+          </div>
+        </div>{# /div.body-top #} -->
+
+        <!-- <div class="w-100"></div> -->
+        {% endif %}
+
+        {% if page.book_navigation %}
+          <div class="body-featured-trigger col-12 text-right">
+            <a class="btn btn-light btn-sm" data-toggle="collapse" href="#collapseBodyFeatured" role="button" aria-expanded="false" aria-controls="collapseBodyFeatured"><i class="fas fa-bars"></i> <span>目录</span></a>
+          </div>
+
+          <div class="w-100"></div>
+
+          {{ page.book_navigation }}
+
+          <!-- <div class="body-featrued  col">
+            <div class="collapse" id="collapseBodyFeatured">
+              <div class="card card-body">
+                <h3>INDEX</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>{# /div.body-featrued #} -->
+
+          <!-- <div class="w-100"></div> -->
+        {% endif %}
+
+        <main class="body-main col py-3" role="main">
+          <article>
+
+            {% if page.highlighted %}
+            {{ page.highlighted }}
+            {% endif %}
+
+            <!-- <div class="highlighted">
+              <div class="alert alert-danger" role="alert">
+                highlighted
+              </div>
+            </div> -->
+
+            {% if page.help %}
+            {{ page.help }}
+            {% endif %}
+
+            <!-- <div class="help">
+              <div class="alert alert-info" role="alert">
+                help
+              </div>
+            </div> -->
+
+            {% if page.content %}
+            {{ page.content }}
+            {% endif %}
+
+            <!-- <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div> -->
+          </article>
+        </main>{# /main.body-main #}
+
+      </div>{# /.row #}
+    </div>{# /.container #}
+  </section>{# /layout-body #}
+
+
+
+  <footer class="layout-footer fixed-bottom">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col">
+          copyright
+        </div>
     </div>
-  </footer>
-</div>{# /.website-root #}
+  </footer>{# /footer.layout-footer #}
+
+</div>{# /.website #}

@@ -1,0 +1,42 @@
+.layout-body{
+
+  .body-breadcrumb{
+    font-size: 75%;
+  }//.body-breadcrumb
+
+
+  .body-top{
+    border-bottom: 4px double $border-color;
+  }//.body-top
+
+  .body-featured-trigger{
+    padding: 1rem;
+    padding-bottom: 0;
+  }//.body-featured-trigger
+
+  .body-featrued{
+    margin-top: 1rem;
+    // background-color: rgba($white, 0.6);
+    // border: 1px solid $gray-100;
+    // padding: 1rem;
+    // font-size: 75%;
+  }//.body-featured
+
+  .body-main{
+
+    article{
+      // background-color: rgba($white, 0.333);
+      // padding: $spacer * 3;
+      // border: 1px solid rgba($gray-100, 0.666);
+      .content{
+
+      }//.content
+    }
+
+  }//.body-main
+
+
+  @import 'components/buttons';
+  @import 'components/breadcrumb';
+
+}//.layout-body

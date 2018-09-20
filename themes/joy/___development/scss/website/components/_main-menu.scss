@@ -1,0 +1,13 @@
+ul.main-menu{
+  padding: 0;
+  margin: 0;
+  @extend .row;
+  li{
+    @extend .col-auto;
+    list-style: none;
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

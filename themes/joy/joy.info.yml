@@ -14,14 +14,14 @@ ckeditor_stylesheets:
   - css/ckeditor.min.css
 regions:
   page_top: 'Page top'
-  brand: 'Brand'
+  brand: Brand
   primary_menu: 'Primary menu'
   search: 'Search'
-  header: 'Header'
   breadcrumb: 'Breadcrumb'
+  featured: 'Featured'
+  book_navigation: 'Book Navigation'
+  help: Help
   highlighted: Highlighted
-  featured_top: 'Featured top'
   content: 'Content'
-  featured_bottom: 'Featured bottom'
   footer: 'Footer'
   page_bottom: 'Page bottom'
