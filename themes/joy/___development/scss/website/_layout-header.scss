@@ -4,27 +4,24 @@
   position: sticky;
   top: 0;
   z-index: 1071;
-  height: $header-height;
-  min-height: $header-height;
-  max-height: $header-height;
+  // height: $header-height;
+  // min-height: $header-height;
+  // max-height: $header-height;
   .header-top{
     padding-top: $header-spacer;
     padding-bottom: $header-spacer;
     a{
       color: $body-color;
       text-decoration: none;
-      &:hover{
-        // color: $primary;
-      }
     }
     #{headings()}{
       padding-bottom: 0;
+      margin-bottom: 0;
       line-height: 1;
+      font-weight: normal;
       &.website-title{
-        font-size: ($header-height * 0.6) - ($header-spacer * 4);
       }
       &.website-tagline{
-        font-size: $header-height * 0.6 * 0.3;
         color: $gray-600;
       }
     }
@@ -40,5 +37,5 @@
 
 
   @import 'components/main-menu';
-  
+
 }//.layout-header

@@ -1,0 +1,17 @@
+table.table{
+  font-size: 13px;
+  font-family: $font-family-sans;
+
+  a{
+    color: $body-color;
+    text-decoration: none;
+    &:hover{
+      color:$primary;
+    }
+  }
+
+  th,td{
+    padding: 0.3rem;
+  }
+
+}

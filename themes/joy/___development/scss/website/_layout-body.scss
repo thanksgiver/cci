@@ -28,9 +28,14 @@
       // background-color: rgba($white, 0.333);
       // padding: $spacer * 3;
       // border: 1px solid rgba($gray-100, 0.666);
-      .content{
+      #{headings()}{
+        padding-top: $spacer;
+        padding-bottom: $spacer / 3;
+      }
 
-      }//.content
+      p{
+        padding-bottom: 1rem;
+      }
     }
 
   }//.body-main
@@ -38,5 +43,7 @@
 
   @import 'components/buttons';
   @import 'components/breadcrumb';
+  @import 'components/inline-links';
+  @import 'components/table';
 
 }//.layout-body
