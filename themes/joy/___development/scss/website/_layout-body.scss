@@ -29,12 +29,14 @@
       // padding: $spacer * 3;
       // border: 1px solid rgba($gray-100, 0.666);
       #{headings()}{
-        padding-top: $spacer;
-        padding-bottom: $spacer / 3;
+        // padding-top: $spacer * 2;
+        // padding-bottom: $spacer / 3;
+        // color: $gray-300;
+        line-height: 3;
       }
 
       p{
-        padding-bottom: 1rem;
+        margin-bottom: 1rem;
       }
     }
 
@@ -45,5 +47,9 @@
   @import 'components/breadcrumb';
   @import 'components/inline-links';
   @import 'components/table';
+  @import 'components/metabox';
+  @import 'components/publish-info';
+  @import 'components/paragraph';
+  @import 'components/question-list';
 
 }//.layout-body

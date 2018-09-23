@@ -1,19 +1,26 @@
 // Noto Sans CJK
-@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Regular.otf"), null, normal, normal);
-@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Light.otf"), null, 300, normal);
-@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Bold.otf"), null, 500, normal);
+
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Thin.otf"), null, 100, thin);
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Light.otf"), null, 300, light);
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Regular.otf"), null, 400, normal);
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Medium.otf"), null, 500, medium);
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Bold.otf"), null, 700, bold);
+@include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Black.otf"), null, 900, black);
 
 // Noto Serif CJK
-@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf"), null, normal, normal);
+@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Thin.otf"), null, 100, thin);
 @include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Light.otf"), null, 300, light);
-@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf"), null, 500, bold);
+@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf"), null, 400, normal);
+@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Medium.otf"), null, 500, medium);
+@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Bold.otf"), null, 700, bold);
+@include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Black.otf"), null, 900, black);
 
 // Noto Sans
 @include font-face('Noto Sans',font-files("NotoSans/NotoSans-Regular.ttf"), null, normal, normal);
 @include font-face('Noto Sans',font-files("NotoSans/NotoSans-Light.ttf"), null, 300, light);
-@include font-face('Noto Sans',font-files("NotoSans/NotoSans-Bold.ttf"), null, 500, bold);
+@include font-face('Noto Sans',font-files("NotoSans/NotoSans-Bold.ttf"), null, 700, bold);
 
 // Noto Serif
 @include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Regular.ttf"), null, normal, normal);
 @include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Light.ttf"), null, 300, light);
-@include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Bold.ttf"), null, 500, bold);
+@include font-face('Noto Serif',font-files("NotoSerif/NotoSerif-Bold.ttf"), null, 700, bold);
