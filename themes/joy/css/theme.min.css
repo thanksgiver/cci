@@ -30,11 +30,6 @@
   font-style: black; }
 @font-face {
   font-family: "Noto Serif CJK";
-  src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Thin.otf') format('opentype');
-  font-weight: 100;
-  font-style: thin; }
-@font-face {
-  font-family: "Noto Serif CJK";
   src: url('../fonts/NotoSerifCJKsc/NotoSerifCJKsc-Light.otf?1537393700') format('opentype');
   font-weight: 300;
   font-style: light; }
