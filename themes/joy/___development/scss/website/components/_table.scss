@@ -1,9 +1,9 @@
 table.table{
-  // font-size: $font-size-sm;
-  // font-family: $font-family-sans;
-
   &.table-sm{
     font-size: $font-size-sm;
+    th,td{
+      padding: 0.3rem;
+    }
   }
 
 
@@ -15,8 +15,6 @@ table.table{
     }
   }
 
-  th,td{
-    // padding: 0.3rem;
-  }
+
 
 }
