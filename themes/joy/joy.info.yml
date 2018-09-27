@@ -25,4 +25,5 @@ regions:
   right_sidebar: 'Right Sidebar'
   search: 'Search'
   footer: 'Footer'
+  disable: 'Disable'
   page_bottom: 'Page Bottom'

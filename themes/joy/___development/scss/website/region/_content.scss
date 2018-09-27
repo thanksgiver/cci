@@ -2,6 +2,7 @@
 
   main.main-content{
     background-color: $white;
+    @include border-radius($border-radius);
     @extend .p-5;
 
     article{
@@ -24,9 +25,17 @@
       table{
         @extend .table;
         @extend .table-sm;
-        font-size: 0.8rem;
+        @extend .table-hover;
+        font-size: 14px;
         td, th{
           padding: 0.1rem 0.2rem;
+        }
+        a{
+          color: $body-color;
+          text-decoration: none;
+          &:hover{
+            color: $primary;
+          }
         }
       }
 

@@ -1312,7 +1312,7 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(28, 27, 22, 0.05); }
 
-.table-hover tbody tr:hover {
+.table-hover tbody tr:hover, html body #website #layout-body .region-content main.main-content article table tbody tr:hover {
   background-color: rgba(28, 27, 22, 0.075); }
 
 .table-primary,
@@ -1320,10 +1320,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-primary > td {
   background-color: #f4d8d6; }
 
-.table-hover .table-primary:hover {
+.table-hover .table-primary:hover, html body #website #layout-body .region-content main.main-content article table .table-primary:hover {
   background-color: #efc5c2; }
-  .table-hover .table-primary:hover > td,
-  .table-hover .table-primary:hover > th {
+  .table-hover .table-primary:hover > td, html body #website #layout-body .region-content main.main-content article table .table-primary:hover > td,
+  .table-hover .table-primary:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-primary:hover > th {
     background-color: #efc5c2; }
 
 .table-secondary,
@@ -1331,10 +1332,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-secondary > td {
   background-color: #d9d9d7; }
 
-.table-hover .table-secondary:hover {
+.table-hover .table-secondary:hover, html body #website #layout-body .region-content main.main-content article table .table-secondary:hover {
   background-color: #cdcdca; }
-  .table-hover .table-secondary:hover > td,
-  .table-hover .table-secondary:hover > th {
+  .table-hover .table-secondary:hover > td, html body #website #layout-body .region-content main.main-content article table .table-secondary:hover > td,
+  .table-hover .table-secondary:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-secondary:hover > th {
     background-color: #cdcdca; }
 
 .table-success,
@@ -1342,10 +1344,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-success > td {
   background-color: #deeadd; }
 
-.table-hover .table-success:hover {
+.table-hover .table-success:hover, html body #website #layout-body .region-content main.main-content article table .table-success:hover {
   background-color: #cfe0cd; }
-  .table-hover .table-success:hover > td,
-  .table-hover .table-success:hover > th {
+  .table-hover .table-success:hover > td, html body #website #layout-body .region-content main.main-content article table .table-success:hover > td,
+  .table-hover .table-success:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-success:hover > th {
     background-color: #cfe0cd; }
 
 .table-info,
@@ -1353,10 +1356,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-info > td {
   background-color: #d7e8ea; }
 
-.table-hover .table-info:hover {
+.table-hover .table-info:hover, html body #website #layout-body .region-content main.main-content article table .table-info:hover {
   background-color: #c6dee1; }
-  .table-hover .table-info:hover > td,
-  .table-hover .table-info:hover > th {
+  .table-hover .table-info:hover > td, html body #website #layout-body .region-content main.main-content article table .table-info:hover > td,
+  .table-hover .table-info:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-info:hover > th {
     background-color: #c6dee1; }
 
 .table-warning,
@@ -1364,10 +1368,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-warning > td {
   background-color: #fff3d0; }
 
-.table-hover .table-warning:hover {
+.table-hover .table-warning:hover, html body #website #layout-body .region-content main.main-content article table .table-warning:hover {
   background-color: #ffecb7; }
-  .table-hover .table-warning:hover > td,
-  .table-hover .table-warning:hover > th {
+  .table-hover .table-warning:hover > td, html body #website #layout-body .region-content main.main-content article table .table-warning:hover > td,
+  .table-hover .table-warning:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-warning:hover > th {
     background-color: #ffecb7; }
 
 .table-danger,
@@ -1375,10 +1380,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-danger > td {
   background-color: #fcebd5; }
 
-.table-hover .table-danger:hover {
+.table-hover .table-danger:hover, html body #website #layout-body .region-content main.main-content article table .table-danger:hover {
   background-color: #fae0bd; }
-  .table-hover .table-danger:hover > td,
-  .table-hover .table-danger:hover > th {
+  .table-hover .table-danger:hover > td, html body #website #layout-body .region-content main.main-content article table .table-danger:hover > td,
+  .table-hover .table-danger:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-danger:hover > th {
     background-color: #fae0bd; }
 
 .table-light,
@@ -1386,10 +1392,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-light > td {
   background-color: #fdfdfc; }
 
-.table-hover .table-light:hover {
+.table-hover .table-light:hover, html body #website #layout-body .region-content main.main-content article table .table-light:hover {
   background-color: #f3f3ed; }
-  .table-hover .table-light:hover > td,
-  .table-hover .table-light:hover > th {
+  .table-hover .table-light:hover > td, html body #website #layout-body .region-content main.main-content article table .table-light:hover > td,
+  .table-hover .table-light:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-light:hover > th {
     background-color: #f3f3ed; }
 
 .table-dark,
@@ -1397,10 +1404,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-dark > td {
   background-color: #eeede9; }
 
-.table-hover .table-dark:hover {
+.table-hover .table-dark:hover, html body #website #layout-body .region-content main.main-content article table .table-dark:hover {
   background-color: #e3e1db; }
-  .table-hover .table-dark:hover > td,
-  .table-hover .table-dark:hover > th {
+  .table-hover .table-dark:hover > td, html body #website #layout-body .region-content main.main-content article table .table-dark:hover > td,
+  .table-hover .table-dark:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-dark:hover > th {
     background-color: #e3e1db; }
 
 .table-active,
@@ -1408,10 +1416,11 @@ html body #website #layout-body .region-content main.main-content article table 
 .table-active > td {
   background-color: rgba(28, 27, 22, 0.075); }
 
-.table-hover .table-active:hover {
+.table-hover .table-active:hover, html body #website #layout-body .region-content main.main-content article table .table-active:hover {
   background-color: rgba(14, 13, 11, 0.075); }
-  .table-hover .table-active:hover > td,
-  .table-hover .table-active:hover > th {
+  .table-hover .table-active:hover > td, html body #website #layout-body .region-content main.main-content article table .table-active:hover > td,
+  .table-hover .table-active:hover > th,
+  html body #website #layout-body .region-content main.main-content article table .table-active:hover > th {
     background-color: rgba(14, 13, 11, 0.075); }
 
 .table .thead-dark th, html body #website #layout-body .region-content main.main-content article table .thead-dark th {
@@ -1434,7 +1443,7 @@ html body #website #layout-body .region-content main.main-content article table 
     border: 0; }
   .table-dark.table-striped tbody tr:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.05); }
-  .table-dark.table-hover tbody tr:hover {
+  .table-dark.table-hover tbody tr:hover, html body #website #layout-body .region-content main.main-content article table.table-dark tbody tr:hover {
     background-color: rgba(255, 255, 255, 0.075); }
 
 @media (max-width: 575.98px) {
@@ -1816,7 +1825,7 @@ textarea.form-control {
     .form-inline .custom-control-label {
       margin-bottom: 0; } }
 
-.btn {
+.btn, html body #website #layout-body .sermon-filter-menu a {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -1830,41 +1839,43 @@ textarea.form-control {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media screen and (prefers-reduced-motion: reduce) {
-    .btn {
+    .btn, html body #website #layout-body .sermon-filter-menu a {
       transition: none; } }
-  .btn:hover, .btn:focus {
+  .btn:hover, html body #website #layout-body .sermon-filter-menu a:hover, .btn:focus, html body #website #layout-body .sermon-filter-menu a:focus {
     text-decoration: none; }
-  .btn:focus, .btn.focus {
+  .btn:focus, html body #website #layout-body .sermon-filter-menu a:focus, .btn.focus, html body #website #layout-body .sermon-filter-menu a.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(195, 51, 37, 0.25); }
-  .btn.disabled, .btn:disabled {
+  .btn.disabled, html body #website #layout-body .sermon-filter-menu a.disabled, .btn:disabled, html body #website #layout-body .sermon-filter-menu a:disabled {
     opacity: 0.65; }
-  .btn:not(:disabled):not(.disabled) {
+  .btn:not(:disabled):not(.disabled), html body #website #layout-body .sermon-filter-menu a:not(:disabled):not(.disabled) {
     cursor: pointer; }
 
-a.btn.disabled,
-fieldset:disabled a.btn {
+a.btn.disabled, html body #website #layout-body .sermon-filter-menu a.disabled,
+fieldset:disabled a.btn,
+fieldset:disabled html body #website #layout-body .sermon-filter-menu a,
+html body #website #layout-body .sermon-filter-menu fieldset:disabled a {
   pointer-events: none; }
 
-.btn-primary {
+.btn-primary, html body #website #layout-body .sermon-filter-menu a.is-active {
   color: #ffffff;
   background-color: #C33325;
   border-color: #C33325; }
-  .btn-primary:hover {
+  .btn-primary:hover, html body #website #layout-body .sermon-filter-menu a.is-active:hover {
     color: #ffffff;
     background-color: #a32b1f;
     border-color: #98281d; }
-  .btn-primary:focus, .btn-primary.focus {
+  .btn-primary:focus, html body #website #layout-body .sermon-filter-menu a.is-active:focus, .btn-primary.focus, html body #website #layout-body .sermon-filter-menu a.focus.is-active {
     box-shadow: 0 0 0 0.2rem rgba(195, 51, 37, 0.5); }
-  .btn-primary.disabled, .btn-primary:disabled {
+  .btn-primary.disabled, html body #website #layout-body .sermon-filter-menu a.disabled.is-active, .btn-primary:disabled, html body #website #layout-body .sermon-filter-menu a.is-active:disabled {
     color: #ffffff;
     background-color: #C33325;
     border-color: #C33325; }
-  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  .btn-primary:not(:disabled):not(.disabled):active, html body #website #layout-body .sermon-filter-menu a.is-active:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, html body #website #layout-body .sermon-filter-menu a.is-active:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, html body #website #layout-body .sermon-filter-menu .show > a.dropdown-toggle.is-active {
     color: #ffffff;
     background-color: #98281d;
     border-color: #8d251b; }
-    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    .btn-primary:not(:disabled):not(.disabled):active:focus, html body #website #layout-body .sermon-filter-menu a.is-active:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, html body #website #layout-body .sermon-filter-menu a.is-active:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus, html body #website #layout-body .sermon-filter-menu .show > a.dropdown-toggle.is-active:focus {
       box-shadow: 0 0 0 0.2rem rgba(195, 51, 37, 0.5); }
 
 .btn-secondary {
@@ -1972,25 +1983,25 @@ fieldset:disabled a.btn {
     .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(241, 151, 34, 0.5); }
 
-.btn-light {
+.btn-light, html body #website #layout-body .sermon-filter-menu a {
   color: #39372c;
   background-color: #f3f3f0;
   border-color: #f3f3f0; }
-  .btn-light:hover {
+  .btn-light:hover, html body #website #layout-body .sermon-filter-menu a:hover {
     color: #39372c;
     background-color: #e3e1db;
     border-color: #dddbd4; }
-  .btn-light:focus, .btn-light.focus {
+  .btn-light:focus, html body #website #layout-body .sermon-filter-menu a:focus, .btn-light.focus, html body #website #layout-body .sermon-filter-menu a.focus {
     box-shadow: 0 0 0 0.2rem rgba(243, 243, 240, 0.5); }
-  .btn-light.disabled, .btn-light:disabled {
+  .btn-light.disabled, html body #website #layout-body .sermon-filter-menu a.disabled, .btn-light:disabled, html body #website #layout-body .sermon-filter-menu a:disabled {
     color: #39372c;
     background-color: #f3f3f0;
     border-color: #f3f3f0; }
-  .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle {
+  .btn-light:not(:disabled):not(.disabled):active, html body #website #layout-body .sermon-filter-menu a:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active, html body #website #layout-body .sermon-filter-menu a:not(:disabled):not(.disabled).active, .show > .btn-light.dropdown-toggle, html body #website #layout-body .sermon-filter-menu .show > a.dropdown-toggle {
     color: #39372c;
     background-color: #dddbd4;
     border-color: #d7d5cc; }
-    .btn-light:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus {
+    .btn-light:not(:disabled):not(.disabled):active:focus, html body #website #layout-body .sermon-filter-menu a:not(:disabled):not(.disabled):active:focus, .btn-light:not(:disabled):not(.disabled).active:focus, html body #website #layout-body .sermon-filter-menu a:not(:disabled):not(.disabled).active:focus, .show > .btn-light.dropdown-toggle:focus, html body #website #layout-body .sermon-filter-menu .show > a.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(243, 243, 240, 0.5); }
 
 .btn-dark {
@@ -2199,13 +2210,13 @@ fieldset:disabled a.btn {
     color: #8e8970;
     pointer-events: none; }
 
-.btn-lg {
+.btn-lg, .btn-group-lg > .btn, html body #website #layout-body .sermon-filter-menu .btn-group-lg > a {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   border-radius: 0.3rem; }
 
-.btn-sm {
+.btn-sm, .btn-group-sm > .btn, html body #website #layout-body .sermon-filter-menu > .btn, html body #website #layout-body .sermon-filter-menu .btn-group-sm > a, html body #website #layout-body .sermon-filter-menu > a {
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
   line-height: 1.5;
@@ -2221,6 +2232,197 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
+
+.btn-group, html body #website #layout-body .sermon-filter-menu,
+.btn-group-vertical {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle; }
+  .btn-group > .btn, html body #website #layout-body .sermon-filter-menu > .btn, html body #website #layout-body .sermon-filter-menu .btn-group > a, html body #website #layout-body .sermon-filter-menu > a,
+  .btn-group-vertical > .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a {
+    position: relative;
+    flex: 0 1 auto; }
+    .btn-group > .btn:hover, html body #website #layout-body .sermon-filter-menu > .btn:hover, html body #website #layout-body .sermon-filter-menu .btn-group > a:hover, html body #website #layout-body .sermon-filter-menu > a:hover,
+    .btn-group-vertical > .btn:hover,
+    html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a:hover {
+      z-index: 1; }
+    .btn-group > .btn:focus, html body #website #layout-body .sermon-filter-menu > .btn:focus, html body #website #layout-body .sermon-filter-menu .btn-group > a:focus, html body #website #layout-body .sermon-filter-menu > a:focus, .btn-group > .btn:active, html body #website #layout-body .sermon-filter-menu > .btn:active, html body #website #layout-body .sermon-filter-menu .btn-group > a:active, html body #website #layout-body .sermon-filter-menu > a:active, .btn-group > .btn.active, html body #website #layout-body .sermon-filter-menu > .btn.active, html body #website #layout-body .sermon-filter-menu .btn-group > a.active, html body #website #layout-body .sermon-filter-menu > a.active,
+    .btn-group-vertical > .btn:focus,
+    html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a:focus,
+    .btn-group-vertical > .btn:active,
+    html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a:active,
+    .btn-group-vertical > .btn.active,
+    html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a.active {
+      z-index: 1; }
+  .btn-group .btn + .btn, html body #website #layout-body .sermon-filter-menu .btn + .btn, html body #website #layout-body .sermon-filter-menu .btn-group a + .btn, html body #website #layout-body .sermon-filter-menu a + .btn, html body #website #layout-body .sermon-filter-menu .btn-group .btn + a, html body #website #layout-body .sermon-filter-menu .btn + a, html body #website #layout-body .sermon-filter-menu .btn-group a + a, html body #website #layout-body .sermon-filter-menu a + a,
+  .btn-group .btn + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .btn + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .btn-group a + .btn-group,
+  html body #website #layout-body .sermon-filter-menu a + .btn-group,
+  .btn-group html body #website #layout-body .btn + .sermon-filter-menu,
+  html body #website #layout-body .btn-group .btn + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .btn + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .btn-group a + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu a + .sermon-filter-menu,
+  .btn-group .btn-group + .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group + .btn,
+  .btn-group html body #website #layout-body .sermon-filter-menu + .btn,
+  html body #website #layout-body .btn-group .sermon-filter-menu + .btn,
+  html body #website #layout-body .sermon-filter-menu .sermon-filter-menu + .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group .btn-group + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group .sermon-filter-menu + a,
+  html body #website #layout-body .sermon-filter-menu .sermon-filter-menu + a,
+  .btn-group .btn-group + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .btn-group + .btn-group,
+  .btn-group html body #website #layout-body .sermon-filter-menu + .btn-group,
+  html body #website #layout-body .btn-group .sermon-filter-menu + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .sermon-filter-menu + .btn-group,
+  .btn-group html body #website #layout-body .btn-group + .sermon-filter-menu,
+  html body #website #layout-body .btn-group .btn-group + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .btn-group + .sermon-filter-menu,
+  .btn-group html body #website #layout-body .sermon-filter-menu + .sermon-filter-menu,
+  html body #website #layout-body .btn-group .sermon-filter-menu + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .sermon-filter-menu + .sermon-filter-menu,
+  .btn-group-vertical .btn + .btn,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu a + .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical a + .btn,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu .btn + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical .btn + a,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu a + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical a + a,
+  .btn-group-vertical .btn + .btn-group,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu a + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical a + .btn-group,
+  .btn-group-vertical html body #website #layout-body .btn + .sermon-filter-menu,
+  html body #website #layout-body .btn-group-vertical .btn + .sermon-filter-menu,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu a + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical a + .sermon-filter-menu,
+  .btn-group-vertical .btn-group + .btn,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu + .btn,
+  html body #website #layout-body .btn-group-vertical .sermon-filter-menu + .btn,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu .btn-group + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical .btn-group + a,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu .sermon-filter-menu + a,
+  html body #website #layout-body .btn-group-vertical .sermon-filter-menu .sermon-filter-menu + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical .sermon-filter-menu + a,
+  .btn-group-vertical .btn-group + .btn-group,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu + .btn-group,
+  html body #website #layout-body .btn-group-vertical .sermon-filter-menu + .btn-group,
+  .btn-group-vertical html body #website #layout-body .btn-group + .sermon-filter-menu,
+  html body #website #layout-body .btn-group-vertical .btn-group + .sermon-filter-menu,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu + .sermon-filter-menu,
+  html body #website #layout-body .btn-group-vertical .sermon-filter-menu + .sermon-filter-menu {
+    margin-left: -1px; }
+
+.btn-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+  .btn-toolbar .input-group {
+    width: auto; }
+
+.btn-group > .btn:first-child, html body #website #layout-body .sermon-filter-menu > .btn:first-child, html body #website #layout-body .sermon-filter-menu .btn-group > a:first-child, html body #website #layout-body .sermon-filter-menu > a:first-child {
+  margin-left: 0; }
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), html body #website #layout-body .sermon-filter-menu > .btn:not(:last-child):not(.dropdown-toggle), html body #website #layout-body .sermon-filter-menu .btn-group > a:not(:last-child):not(.dropdown-toggle), html body #website #layout-body .sermon-filter-menu > a:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn,
+html body #website #layout-body .sermon-filter-menu > .btn-group:not(:last-child) > .btn,
+html body #website #layout-body .btn-group > .sermon-filter-menu:not(:last-child) > .btn,
+html body #website #layout-body .sermon-filter-menu > .sermon-filter-menu:not(:last-child) > .btn,
+html body #website #layout-body .sermon-filter-menu .btn-group > .btn-group:not(:last-child) > a,
+html body #website #layout-body .sermon-filter-menu > .btn-group:not(:last-child) > a,
+html body #website #layout-body .btn-group > .sermon-filter-menu:not(:last-child) > a,
+html body #website #layout-body .sermon-filter-menu > .sermon-filter-menu:not(:last-child) > a {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+.btn-group > .btn:not(:first-child), html body #website #layout-body .sermon-filter-menu > .btn:not(:first-child), html body #website #layout-body .sermon-filter-menu .btn-group > a:not(:first-child), html body #website #layout-body .sermon-filter-menu > a:not(:first-child),
+.btn-group > .btn-group:not(:first-child) > .btn,
+html body #website #layout-body .sermon-filter-menu > .btn-group:not(:first-child) > .btn,
+html body #website #layout-body .btn-group > .sermon-filter-menu:not(:first-child) > .btn,
+html body #website #layout-body .sermon-filter-menu > .sermon-filter-menu:not(:first-child) > .btn,
+html body #website #layout-body .sermon-filter-menu .btn-group > .btn-group:not(:first-child) > a,
+html body #website #layout-body .sermon-filter-menu > .btn-group:not(:first-child) > a,
+html body #website #layout-body .btn-group > .sermon-filter-menu:not(:first-child) > a,
+html body #website #layout-body .sermon-filter-menu > .sermon-filter-menu:not(:first-child) > a {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.dropdown-toggle-split {
+  padding-right: 0.5625rem;
+  padding-left: 0.5625rem; }
+  .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropright .dropdown-toggle-split::after {
+    margin-left: 0; }
+  .dropleft .dropdown-toggle-split::before {
+    margin-right: 0; }
+
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, html body #website #layout-body .sermon-filter-menu > .btn + .dropdown-toggle-split, html body #website #layout-body .sermon-filter-menu .btn-group-sm > a + .dropdown-toggle-split, html body #website #layout-body .sermon-filter-menu > a + .dropdown-toggle-split {
+  padding-right: 0.375rem;
+  padding-left: 0.375rem; }
+
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, html body #website #layout-body .sermon-filter-menu .btn-group-lg > a + .dropdown-toggle-split {
+  padding-right: 0.75rem;
+  padding-left: 0.75rem; }
+
+.btn-group-vertical {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; }
+  .btn-group-vertical .btn, .btn-group-vertical html body #website #layout-body .sermon-filter-menu a, html body #website #layout-body .sermon-filter-menu .btn-group-vertical a,
+  .btn-group-vertical .btn-group,
+  .btn-group-vertical html body #website #layout-body .sermon-filter-menu,
+  html body #website #layout-body .btn-group-vertical .sermon-filter-menu {
+    width: 100%; }
+  .btn-group-vertical > .btn + .btn, html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a + .btn, html body #website #layout-body .sermon-filter-menu .btn-group-vertical > .btn + a, html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a + a,
+  .btn-group-vertical > .btn + .btn-group,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a + .btn-group,
+  html body #website #layout-body .btn-group-vertical > .btn + .sermon-filter-menu,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a + .sermon-filter-menu,
+  .btn-group-vertical > .btn-group + .btn,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu + .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > .btn-group + a,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > .sermon-filter-menu + a,
+  .btn-group-vertical > .btn-group + .btn-group,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu + .btn-group,
+  html body #website #layout-body .btn-group-vertical > .btn-group + .sermon-filter-menu,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu + .sermon-filter-menu {
+    margin-top: -1px;
+    margin-left: 0; }
+  .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a:not(:last-child):not(.dropdown-toggle),
+  .btn-group-vertical > .btn-group:not(:last-child) > .btn,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu:not(:last-child) > .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > .btn-group:not(:last-child) > a,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu:not(:last-child) > a {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+  .btn-group-vertical > .btn:not(:first-child), html body #website #layout-body .sermon-filter-menu .btn-group-vertical > a:not(:first-child),
+  .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu:not(:first-child) > .btn,
+  html body #website #layout-body .sermon-filter-menu .btn-group-vertical > .btn-group:not(:first-child) > a,
+  html body #website #layout-body .btn-group-vertical > .sermon-filter-menu:not(:first-child) > a {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
+
+.btn-group-toggle > .btn, html body #website #layout-body .sermon-filter-menu .btn-group-toggle > a,
+.btn-group-toggle > .btn-group > .btn,
+html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > .btn,
+html body #website #layout-body .sermon-filter-menu .btn-group-toggle > .btn-group > a,
+html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > a {
+  margin-bottom: 0; }
+  .btn-group-toggle > .btn input[type="radio"], html body #website #layout-body .sermon-filter-menu .btn-group-toggle > a input[type="radio"],
+  .btn-group-toggle > .btn input[type="checkbox"],
+  html body #website #layout-body .sermon-filter-menu .btn-group-toggle > a input[type="checkbox"],
+  .btn-group-toggle > .btn-group > .btn input[type="radio"],
+  html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > .btn input[type="radio"],
+  html body #website #layout-body .sermon-filter-menu .btn-group-toggle > .btn-group > a input[type="radio"],
+  html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > a input[type="radio"],
+  .btn-group-toggle > .btn-group > .btn input[type="checkbox"],
+  html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > .btn input[type="checkbox"],
+  html body #website #layout-body .sermon-filter-menu .btn-group-toggle > .btn-group > a input[type="checkbox"],
+  html body #website #layout-body .btn-group-toggle > .sermon-filter-menu > a input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none; }
 
 .breadcrumb {
   display: flex;
@@ -2245,6 +2447,75 @@ input[type="button"].btn-block {
 .breadcrumb-item.active {
   color: #8e8970; }
 
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem; }
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #C33325;
+  background-color: #ffffff;
+  border: 1px solid #d2d0c5; }
+  .page-link:hover {
+    z-index: 2;
+    color: #832219;
+    text-decoration: none;
+    background-color: #e8e7e2;
+    border-color: #d2d0c5; }
+  .page-link:focus {
+    z-index: 2;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(195, 51, 37, 0.25); }
+  .page-link:not(:disabled):not(.disabled) {
+    cursor: pointer; }
+
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem; }
+.page-item:last-child .page-link {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem; }
+.page-item.active .page-link {
+  z-index: 1;
+  color: #ffffff;
+  background-color: #C33325;
+  border-color: #C33325; }
+.page-item.disabled .page-link {
+  color: #8e8970;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #ffffff;
+  border-color: #d2d0c5; }
+
+.pagination-lg .page-link {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5; }
+.pagination-lg .page-item:first-child .page-link {
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem; }
+.pagination-lg .page-item:last-child .page-link {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem; }
+
+.pagination-sm .page-link {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1.5; }
+.pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem; }
+.pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem; }
+
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -2258,7 +2529,7 @@ input[type="button"].btn-block {
   .badge:empty {
     display: none; }
 
-.btn .badge {
+.btn .badge, html body #website #layout-body .sermon-filter-menu a .badge {
   position: relative;
   top: -1px; }
 
@@ -2330,6 +2601,100 @@ input[type="button"].btn-block {
     color: #39372c;
     text-decoration: none;
     background-color: #8e8970; }
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0; }
+
+.alert-heading {
+  color: inherit; }
+
+.alert-link {
+  font-weight: 700; }
+
+.alert-dismissible {
+  padding-right: 4rem; }
+  .alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit; }
+
+.alert-primary {
+  color: #69261d;
+  background-color: #f9ebe9;
+  border-color: #f4d8d6; }
+  .alert-primary hr {
+    border-top-color: #efc5c2; }
+  .alert-primary .alert-link {
+    color: #411812; }
+
+.alert-secondary {
+  color: #292820;
+  background-color: #ebebea;
+  border-color: #d9d9d7; }
+  .alert-secondary hr {
+    border-top-color: #cdcdca; }
+  .alert-secondary .alert-link {
+    color: #0c0c0a; }
+
+.alert-success {
+  color: #34522f;
+  background-color: #eef4ed;
+  border-color: #deeadd; }
+  .alert-success hr {
+    border-top-color: #cfe0cd; }
+  .alert-success .alert-link {
+    color: #1f321c; }
+
+.alert-info {
+  color: #234c50;
+  background-color: #eaf3f4;
+  border-color: #d7e8ea; }
+  .alert-info hr {
+    border-top-color: #c6dee1; }
+  .alert-info .alert-link {
+    color: #132a2d; }
+
+.alert-warning {
+  color: #84670f;
+  background-color: #fff9e6;
+  border-color: #fff3d0; }
+  .alert-warning hr {
+    border-top-color: #ffecb7; }
+  .alert-warning .alert-link {
+    color: #56430a; }
+
+.alert-danger {
+  color: #7e541c;
+  background-color: #fef5e9;
+  border-color: #fcebd5; }
+  .alert-danger hr {
+    border-top-color: #fae0bd; }
+  .alert-danger .alert-link {
+    color: #543813; }
+
+.alert-light {
+  color: #7f7e7a;
+  background-color: #fefefe;
+  border-color: #fdfdfc; }
+  .alert-light hr {
+    border-top-color: #f3f3ed; }
+  .alert-light .alert-link {
+    color: #656461; }
+
+.alert-dark {
+  color: #5b594c;
+  background-color: #f6f6f4;
+  border-color: #eeede9; }
+  .alert-dark hr {
+    border-top-color: #e3e1db; }
+  .alert-dark .alert-link {
+    color: #3f3e35; }
 
 .align-baseline {
   vertical-align: baseline !important; }
@@ -8879,7 +9244,8 @@ html body {
     padding-top: 2rem;
     padding-bottom: 2rem; }
     html body #website #layout-body .region-content main.main-content {
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      border-radius: 0.25rem; }
       html body #website #layout-body .region-content main.main-content article h1, html body #website #layout-body .region-content main.main-content article h2, html body #website #layout-body .region-content main.main-content article h3, html body #website #layout-body .region-content main.main-content article h4, html body #website #layout-body .region-content main.main-content article h5, html body #website #layout-body .region-content main.main-content article h6 {
         line-height: 1.2;
         margin-top: 1rem;
@@ -8890,9 +9256,14 @@ html body {
         html body #website #layout-body .region-content main.main-content article p:last-child {
           margin-bottom: 0; }
       html body #website #layout-body .region-content main.main-content article table {
-        font-size: 0.8rem; }
+        font-size: 14px; }
         html body #website #layout-body .region-content main.main-content article table td, html body #website #layout-body .region-content main.main-content article table th {
           padding: 0.1rem 0.2rem; }
+        html body #website #layout-body .region-content main.main-content article table a {
+          color: #39372c;
+          text-decoration: none; }
+          html body #website #layout-body .region-content main.main-content article table a:hover {
+            color: #C33325; }
       html body #website #layout-body .region-content main.main-content article .question-list {
         font-size: 0.8rem; }
     html body #website #layout-body .region-right-sidebar {
@@ -8924,5 +9295,7 @@ html body {
       font-style: italic; }
       html body #website #layout-body ol.bible-reference li {
         margin-left: 1rem; }
+    html body #website #layout-body .alert {
+      font-size: 0.8rem; }
   html body .invisible {
     display: none; }
