@@ -31,9 +31,11 @@
  * - page.page_top
  * - page.header
  * - page.primary_menu
- * - page.search
+ * - page.featured_top
  * - page.breadcrumb
  * - page.highlighted
+ * - page.help
+ * - page.search
  * - page.top
  * - page.content
  * - page.bottom
@@ -48,14 +50,40 @@
   <header id="layout-header" role="banner">
     <div class="container-fuild">
       <div class="row no-gutters">
+
         {% if page.header %}
         {{ page.header }}
         {% endif %}
+
+        {% if page.primary_menu %}
+        {{ page.primary_menu }}
+        {% endif %}
+
       </div>
     </div>
   </header>{# /header#layout-header #}
 
+
+  {% if page.featured_top %}
+  {{ page.featured_top }}
+  {% endif %}
+
+  {% if page.breadcrumb %}
+  {{ page.breadcrumb }}
+  {% endif %}
+
+  {% if page.help %}
+  {{ page.help }}
+  {% endif %}
+
+  {% if page.highlighted %}
+  {{ page.highlighted }}
+  {% endif %}
+
   <section id="layout-body">
+    {% if page.content %}
+    {{ page.content }}
+    {% endif %}
   </section>{# /section#layout-body #}
 
   <footer id="layout-footer">

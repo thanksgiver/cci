@@ -1,0 +1,28 @@
+.region-primary-menu{
+  @extend .col;
+  #block-joy-main-menu{
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: right;
+      li{
+        display: inline-block;
+        a{
+          display: inline-block;
+          color: $gray-150;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: bold;
+          line-height: $header-height;
+          height: $header-height;
+          padding-left: $spacer;
+          padding-right: $spacer;
+          &:hover{
+            color:$white;
+          }
+        }//a
+      }//li
+    }//ul
+  }//#block-joy-main-menu
+}//.region-primary-menu

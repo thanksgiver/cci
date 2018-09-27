@@ -1,0 +1,44 @@
+.region-header{
+  @extend .col;
+  #block-joy-branding{
+    @extend .row;
+    @extend .align-items-center;
+    margin: 0;
+    .website-logo{
+      width: $header-height;
+      height: $header-height;
+      border-right: 1px solid darken($primary, 10%);
+      a{
+        display: block;
+        padding: $header-spacer;
+        img{
+          width: $header-height - $header-spacer * 2;
+          height: $header-height - $header-spacer * 2;
+        }
+      }//a
+    }//.website-logo
+    .website-title{
+      @extend .col;
+      a{
+        color: $white;
+        text-decoration: none;
+        .title{
+          color: $white;
+          font-size: 1.5rem;
+          line-height: 1.1;
+          padding: 0;
+          margin: 0;
+        }//.title
+        .subtitle{
+          color: $gray-300;
+          font-size: 0.625rem;
+          line-height: 1.1;
+          padding: 0;
+          margin: 0;
+          text-transform: uppercase;
+          font-weight: bold;
+        }//.subtitle
+      }//a
+    }//.website-title
+  }//#block-joy-branding
+}//.region-header

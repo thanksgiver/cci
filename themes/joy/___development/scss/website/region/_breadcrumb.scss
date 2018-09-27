@@ -1,0 +1,27 @@
+.region-breadcrumb{
+  @extend .py-2;
+  #block-joy-breadcrumbs{
+
+    .breadcrumb-bar{
+      ol.breadcrumb{
+        background-color: transparent;
+        font-size: 0.8rem;
+        margin-bottom: 0;
+        li.breadcrumb-item{
+          line-height: 1;
+          &:first-child{
+
+            &::before{
+              @extend %fa-icon;
+              @extend .fas;
+              content: fa-content($fa-var-home);
+              color: $gray-450;
+              vertical-align: initial;
+              padding-right: 0.3rem;
+            }
+          }//li:first-child
+        }//li
+      }//ol
+    }//.breadcrumb-bar
+  }//#block-joy-breadcrumbs
+}//.region-breadcrumb

@@ -1,35 +1,7 @@
 #layout-header{
   height: $header-height;
   background-color: $primary;
-  .region-header{
-    @extend .col;
-    #block-joy-branding{
-      @extend .row;
-      @extend .align-items-center;
-      a.website-logo{
-        @extend .col-auto;
-        display: block;
-        padding: $header-spacer;
-        border-right: 1px solid darken($gray-500);
-        img{
-          width: $header-height - $header-spacer * 2;
-          height: $header-height - $header-spacer * 2;
-        }
-      }//.website-logo
-      a.website-title{
-        @extend .col;
-        display: block;
-        color: $white;
-        text-decoration: none;
-        .title{
-          color: $white;
-          font-size: 2rem;
-        }//.title
-        .subtitle{
-          color: $gray-500;
-          font-size: 1rem;
-        }//.subtitle
-      }//.website-title
-    }//#block-joy-branding
-  }
+
+  @import 'region/header';
+  @import 'region/primary-menu';
 }//#layout-header
