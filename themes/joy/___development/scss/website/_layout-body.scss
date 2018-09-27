@@ -1,8 +1,13 @@
 @import 'region/featured-top';
 @import 'region/breadcrumb';
+@import 'region/local-task';
 @import 'region/help';
 @import 'region/highlighted';
 
 #layout-body{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @import 'region/content';
+  @import 'region/right-sidebar';
   @import 'components/components';
 }//#layout-body

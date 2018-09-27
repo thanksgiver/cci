@@ -33,11 +33,13 @@
  * - page.primary_menu
  * - page.featured_top
  * - page.breadcrumb
+ * - page.local_task
  * - page.highlighted
  * - page.help
+ * - page.content
+ * - page.right_sidebar
  * - page.search
  * - page.top
- * - page.content
  * - page.bottom
  * - page.footer
  * - page.page_bottom
@@ -68,22 +70,38 @@
   {{ page.featured_top }}
   {% endif %}
 
-  {% if page.breadcrumb %}
-  {{ page.breadcrumb }}
+  {% if page.local_task %}
+  {{ page.local_task }}
   {% endif %}
 
-  {% if page.help %}
-  {{ page.help }}
+  {% if page.breadcrumb %}
+  {{ page.breadcrumb }}
   {% endif %}
 
   {% if page.highlighted %}
   {{ page.highlighted }}
   {% endif %}
 
+  {% if page.help %}
+  {{ page.help }}
+  {% endif %}
+
+
   <section id="layout-body">
-    {% if page.content %}
-    {{ page.content }}
-    {% endif %}
+    <div class="container">
+      <div class="row">
+        {% if page.right_sidebar %}<div class="col-9">{% else %}<div class="col-12">{% endif %}
+          {% if page.content %}
+          {{ page.content }}
+          {% endif %}
+        </div>
+        <div class="col-3">
+          {% if page.right_sidebar %}
+          {{ page.right_sidebar }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </section>{# /section#layout-body #}
 
   <footer id="layout-footer">

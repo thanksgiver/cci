@@ -1,0 +1,40 @@
+.region-content{
+
+  main.main-content{
+    background-color: $white;
+    @extend .p-5;
+
+    article{
+      #{headings()}{
+        line-height: 1.2;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      p{
+        margin-bottom: 1rem;
+        text-indent: 2rem;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      ul, ol{
+        @extend .my-2;
+      }
+
+      table{
+        @extend .table;
+        @extend .table-sm;
+        font-size: 0.8rem;
+        td, th{
+          padding: 0.1rem 0.2rem;
+        }
+      }
+
+      .question-list{
+        font-size: 0.8rem;
+      }
+    }//article
+
+  }//main.main-content
+
+}//.region-content

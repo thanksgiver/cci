@@ -1,0 +1,9 @@
+sup{
+  font-size: 11px;
+  font-weight: 900;
+  color: $primary;
+  vertical-align: super;
+  background-color: $light;
+  padding: 0.1rem 0.2rem;
+  @include border-radius(10rem);
+}
