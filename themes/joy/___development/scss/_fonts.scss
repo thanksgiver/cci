@@ -8,7 +8,6 @@
 @include font-face('Noto Sans CJK',font-files("NotoSansCJKsc/NotoSansCJKsc-Black.otf"), null, 900, black);
 
 // Noto Serif CJK
-// @include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Thin.otf"), null, 100, thin);
 @include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Light.otf"), null, 300, light);
 @include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Regular.otf"), null, 400, normal);
 @include font-face('Noto Serif CJK',font-files("NotoSerifCJKsc/NotoSerifCJKsc-Medium.otf"), null, 500, medium);
