@@ -7,10 +7,7 @@
 #layout-body{
   margin-top: 1rem;
   margin-bottom: 0;
-  
   @import 'region/content';
   @import 'region/right-sidebar';
   @import 'components/components';
-  @import 'components/alert';
-  @import 'components/sermon-filter-menu';
 }//#layout-body

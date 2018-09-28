@@ -1,0 +1,32 @@
+.book-tree{
+  position: relative;
+  &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '请继续阅读章节内容';
+    letter-spacing: 0.05rem;
+    @extend .badge;
+    @extend .badge-secondary;
+  }
+
+  // border-top: 1px solid $border-color;
+  @extend .mt-3;
+  @extend .pt-4;
+  ul{
+    column-count: 2;
+    column-rule-style: dashed;
+    column-rule-color: $border-color;
+    column-rule-width: 1px;
+    column-gap: 3rem;
+    column-width: 300px;
+    margin: 0;
+    padding: 0;
+
+    li{
+
+      list-style: none;
+      font-size: 14px;
+    }//li
+  }//ul
+}//.book-tree

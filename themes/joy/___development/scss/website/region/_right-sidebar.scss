@@ -1,14 +1,3 @@
 .region-right-sidebar{
-  font-size: 75%;
-  ul, ol{
-    padding-left: 0.5rem;
-    margin-left: 1rem;
-    margin-bottom: 0;
-    li{
-      margin-bottom: 0;
-      padding-bottom: 0;
-      letter-spacing: 0;
-      line-height: 1.75;
-    }
-  }
+  @import "../components/right-sidebar/book-tree";
 }//.region-right-sidebar
