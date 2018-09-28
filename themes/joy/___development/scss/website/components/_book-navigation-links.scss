@@ -1,0 +1,14 @@
+ul.book-navigation-links{
+  padding: 0;
+  margin: 0;
+  @extend .d-flex;
+  @extend .justify-content-between;
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+      @extend .btn-light;
+      @extend .btn-sm;
+    }//a
+  }//li
+}//.book-navigation-links

@@ -5,8 +5,9 @@
 @import 'region/highlighted';
 
 #layout-body{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  
   @import 'region/content';
   @import 'region/right-sidebar';
   @import 'components/components';

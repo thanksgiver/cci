@@ -1,1 +1,6 @@
 <?php
+function joy_preprocess_page_title(&$variables) {
+  // kint($variables);
+  $variables['title_attributes']['class'][] = 'border-bottom';
+  $variables['title_attributes']['class'][] = 'pb-2';
+}

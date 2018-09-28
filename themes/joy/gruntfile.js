@@ -104,7 +104,7 @@ module.exports = function(grunt) {
           // trace: true, // Show a full traceback on error.
           // check: true, // Just check the Sass syntax, does not evaluate and write the output.
           compass: true,
-          style: 'nested', //nested, compact, compressed, expanded
+          style: 'compressed', //nested, compact, compressed, expanded
           quiet: true,
           noCache: true,
           loadPath: ['<%= pkg.dev_scss %>']

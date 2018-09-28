@@ -1,0 +1,32 @@
+.control-links{
+  padding: 0;
+  margin: 0;
+  @extend .my-4;
+  @extend .btn-group;
+  @extend .btn-group-sm;
+  a{
+    @extend .btn;
+    @extend .btn-outline-secondary;
+    &:first-child{
+      &::before{
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-pencil-alt);
+        color: $gray-450;
+        vertical-align: initial;
+        padding-right: 0.3rem;
+      }
+    }
+    &:last-child{
+      &::before{
+        @extend %fa-icon;
+        @extend .fas;
+        content: fa-content($fa-var-print);
+        color: $gray-450;
+        vertical-align: initial;
+        padding-right: 0.3rem;
+      }
+    }
+  }
+
+}//.control-links
