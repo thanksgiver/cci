@@ -4,6 +4,7 @@ function joy_preprocess_page_title(&$variables)
     // kint($variables);
     $variables['title_attributes']['class'][] = 'border-bottom';
     $variables['title_attributes']['class'][] = 'pb-2';
+    $variables['title_attributes']['class'][] = 'page-title';
 }
 
 
@@ -47,7 +48,7 @@ function joy_preprocess_field(&$variables, $hook)
 
     if ($element['#field_name']=='body') {
         $variables['attributes']['class'][] = 'col-12';
-        $variables['attributes']['class'][] = 'py-4';
+        $variables['attributes']['class'][] = 'py-2';
         $variables['attributes']['class'][] = 'article-body';
     }
 }
