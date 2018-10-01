@@ -8,6 +8,12 @@ function joy_preprocess_page_title(&$variables)
 }
 
 
+function joy_preprocess_views_view_field(&$variables)
+{
+  // kint($variables);
+}
+
+
 function joy_preprocess_field(&$variables, $hook)
 {
     $element =&$variables['element'];

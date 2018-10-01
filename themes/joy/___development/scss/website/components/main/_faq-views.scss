@@ -1,0 +1,26 @@
+.faq-views{
+
+  .card{
+    @extend .mb-5;
+
+    .card-header{
+      padding-left: 5rem;
+      background-color: lighten($info, 60%);
+      #{headings()}{
+        @extend .my-1;
+      }
+    }
+
+    .card-body{
+      padding-left: 5rem;
+      // columns: 2;
+      // column-width: 300px;
+      // column-gap: 3rem;
+      // column-rule-color: $border-color;
+      // column-rule-style: solid;
+      // column-rule-width: 1px;
+    }
+
+  }//.card
+
+}
