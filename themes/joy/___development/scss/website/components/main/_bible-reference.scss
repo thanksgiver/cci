@@ -1,11 +1,14 @@
 ol.bible-reference{
   padding: 1rem;
   margin: 0;
-  background-color: $gray-100;
-  font-size: 13px;
+  background-color: $gray-150;
+  font-size: 0.8rem;
   line-height: 1.75;
   font-style: italic;
   li{
     margin-left: 1rem;;
+    &::before{
+      color: $red;
+    }
   }//li
 }

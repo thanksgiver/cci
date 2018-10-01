@@ -4,7 +4,7 @@
 //
 
 $white:    #ffffff;
-$black:    #1C1B16;
+$black:    #111111;
 $gray-50:  lighten($black, 95%);
 $gray-100:  lighten($black, 90%);
 $gray-150:  lighten($black, 85%);
@@ -54,14 +54,14 @@ $grays: map-merge(
 
 
 $blue:    #105187;
-// $indigo:  #6610f2;
-// $purple:  #6f42c1;
-// $pink:    #e83e8c;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #e83e8c;
 $red:     #C33325;
 $orange:  #F19722;
 $yellow:  #ffc107;
 $green:   #51934D;
-// $teal:    #20c997;
+$teal:    #20c997;
 $cyan:    #2C8693;
 
 $colors: ();
@@ -69,14 +69,14 @@ $colors: ();
 $colors: map-merge(
   (
     "blue":       $blue,
-    // "indigo":     $indigo,
-    // "purple":     $purple,
-    // "pink":       $pink,
+    "indigo":     $indigo,
+    "purple":     $purple,
+    "pink":       $pink,
     "red":        $red,
     "orange":     $orange,
     "yellow":     $yellow,
     "green":      $green,
-    // "teal":       $teal,
+    "teal":       $teal,
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,

@@ -7,11 +7,15 @@ core: 8.x
 version: 8.x-1.0
 screenshot: screenshot.png
 logo: images/logo.svg
+ckeditor_stylesheets:
+  - css/ckeditor/sup.min.css
+  - css/ckeditor/bible-reference.min.css
+  - css/ckeditor/quote-note.min.css
+  - css/ckeditor/list-style-1.min.css
+  - css/ckeditor/question-list.min.css
 libraries:
   - joy/global-styling
   - joy/global-scripts
-ckeditor_stylesheets:
-  - css/ckeditor.min.css
 regions:
   page_top: 'Page top'
   header: 'Header'

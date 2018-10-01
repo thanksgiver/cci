@@ -25,11 +25,12 @@
       table{
         @extend .table;
         @extend .table-sm;
-        @extend .table-hover;
-        font-size: 14px;
-        td, th{
-          padding: 0.1rem 0.2rem;
+        @extend .table-bordered;
+        thead, th{
+          background-color: $gray-100;
         }
+        font-size: 14px;
+        td, th{ }
         a{
           color: $body-color;
           text-decoration: none;

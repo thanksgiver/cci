@@ -10,6 +10,12 @@
         margin-bottom: 0;
         li.breadcrumb-item{
           line-height: 1;
+          a{
+            color: $gray-500;
+            &:hover{
+              color: $red;
+            }
+          }
           &:first-child{
 
             &::before{
