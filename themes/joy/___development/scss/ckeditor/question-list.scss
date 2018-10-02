@@ -1,7 +1,2 @@
-@import "compass/css3";
-@import "../fonts";
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../variables";
-.question-list{
-  font-size: 0.8rem;
-}
+@import 'settings';
+@import '../website/components/main/question-list';

@@ -1,12 +1,2 @@
-@import "compass/css3";
-@import "../fonts";
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../variables";
-.quote-note{
-  // color: $gray-600;
-  // font-size: 0.8rem;
-  // letter-spacing: 0;
-  // font-family: $font-family-serif;
-  color: $success;
-  font-style: italic;
-}//.quote-note
+@import 'settings';
+@import '../website/components/main/quote-note';

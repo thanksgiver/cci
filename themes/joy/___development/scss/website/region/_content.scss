@@ -6,46 +6,7 @@
     @extend .p-5;
 
     article{
-      #{headings()}{
-        line-height: 1.2;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-      }
-      p{
-        margin-bottom: 1rem;
-        text-indent: 2rem;
-        &:last-child{
-          margin-bottom: 0;
-        }
-      }
-      ul, ol{
-        @extend .my-2;
-      }
-
-      table{
-        @extend .table;
-        @extend .table-sm;
-        @extend .table-bordered;
-        thead, th{
-          background-color: $gray-100;
-        }
-        font-size: 14px;
-        td, th{ }
-        a{
-          color: $body-color;
-          text-decoration: none;
-          &:hover{
-            color: $primary;
-          }
-        }
-      }
-
-      .question-list{
-        font-size: 0.8rem;
-      }
-
-      @import '../components/main/book-tree';
-
+      @import '../components/main';
     }//article
 
   }//main.main-content

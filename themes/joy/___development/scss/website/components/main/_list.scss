@@ -1,0 +1,17 @@
+ul, ol{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+ol{
+  list-style-type: decimal;
+  ol{
+    list-style-type: lower-alpha;
+    ol{
+      list-style-type: lower-roman;
+      ol{
+        list-style-type: lower-greek;
+      }
+    }
+  }
+}

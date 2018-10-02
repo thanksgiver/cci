@@ -1,0 +1,222 @@
+.table, table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent; }
+  .table th, table th,
+  .table td,
+  table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #c4c4c4; }
+  .table thead th, table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #c4c4c4; }
+  .table tbody + tbody, table tbody + tbody {
+    border-top: 2px solid #c4c4c4; }
+  .table .table, table .table, .table table, table table {
+    background-color: #eaeaea; }
+
+.table-sm th, table th,
+.table-sm td,
+table td {
+  padding: 0.3rem; }
+
+.table-bordered, table {
+  border: 1px solid #c4c4c4; }
+  .table-bordered th, table th,
+  .table-bordered td,
+  table td {
+    border: 1px solid #c4c4c4; }
+  .table-bordered thead th, table thead th,
+  .table-bordered thead td,
+  table thead td {
+    border-bottom-width: 2px; }
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0; }
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(17, 17, 17, 0.05); }
+
+.table-hover tbody tr:hover {
+  background-color: rgba(17, 17, 17, 0.075); }
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #f6e1df; }
+
+.table-hover .table-primary:hover {
+  background-color: #f0cecb; }
+  .table-hover .table-primary:hover > td,
+  .table-hover .table-primary:hover > th {
+    background-color: #f0cecb; }
+
+.table-secondary,
+.table-secondary > th,
+.table-secondary > td {
+  background-color: #e4e4e4; }
+
+.table-hover .table-secondary:hover {
+  background-color: #d7d7d7; }
+  .table-hover .table-secondary:hover > td,
+  .table-hover .table-secondary:hover > th {
+    background-color: #d7d7d7; }
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #e6efe5; }
+
+.table-hover .table-success:hover {
+  background-color: #d7e5d5; }
+  .table-hover .table-success:hover > td,
+  .table-hover .table-success:hover > th {
+    background-color: #d7e5d5; }
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #e0edef; }
+
+.table-hover .table-info:hover {
+  background-color: #cfe3e6; }
+  .table-hover .table-info:hover > td,
+  .table-hover .table-info:hover > th {
+    background-color: #cfe3e6; }
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #fff6db; }
+
+.table-hover .table-warning:hover {
+  background-color: #fff0c2; }
+  .table-hover .table-warning:hover > td,
+  .table-hover .table-warning:hover > th {
+    background-color: #fff0c2; }
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #fdf0df; }
+
+.table-hover .table-danger:hover {
+  background-color: #fce5c7; }
+  .table-hover .table-danger:hover > td,
+  .table-hover .table-danger:hover > th {
+    background-color: #fce5c7; }
+
+.table-light,
+.table-light > th,
+.table-light > td {
+  background-color: #fcfcfc; }
+
+.table-hover .table-light:hover {
+  background-color: #efefef; }
+  .table-hover .table-light:hover > td,
+  .table-hover .table-light:hover > th {
+    background-color: #efefef; }
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #efefef; }
+
+.table-hover .table-dark:hover {
+  background-color: #e2e2e2; }
+  .table-hover .table-dark:hover > td,
+  .table-hover .table-dark:hover > th {
+    background-color: #e2e2e2; }
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(17, 17, 17, 0.075); }
+
+.table-hover .table-active:hover {
+  background-color: rgba(4, 4, 4, 0.075); }
+  .table-hover .table-active:hover > td,
+  .table-hover .table-active:hover > th {
+    background-color: rgba(4, 4, 4, 0.075); }
+
+.table .thead-dark th, table .thead-dark th {
+  color: #eaeaea;
+  background-color: #2b2b2b;
+  border-color: #3e3e3e; }
+.table .thead-light th, table .thead-light th {
+  color: #5e5e5e;
+  background-color: #dddddd;
+  border-color: #c4c4c4; }
+
+.table-dark {
+  color: #eaeaea;
+  background-color: #2b2b2b; }
+  .table-dark th,
+  .table-dark td,
+  .table-dark thead th {
+    border-color: #3e3e3e; }
+  .table-dark.table-bordered, table.table-dark {
+    border: 0; }
+  .table-dark.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05); }
+  .table-dark.table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.075); }
+
+@media (max-width: 575.98px) {
+  .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+    .table-responsive-sm > .table-bordered, .table-responsive-sm > table {
+      border: 0; } }
+@media (max-width: 767.98px) {
+  .table-responsive-md {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+    .table-responsive-md > .table-bordered, .table-responsive-md > table {
+      border: 0; } }
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+    .table-responsive-lg > .table-bordered, .table-responsive-lg > table {
+      border: 0; } }
+@media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; }
+    .table-responsive-xl > .table-bordered, .table-responsive-xl > table {
+      border: 0; } }
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
+  .table-responsive > .table-bordered, .table-responsive > table {
+    border: 0; }
+
+table {
+  font-size: 14px; }
+  table thead, table th {
+    background-color: #f7f7f7; }
+  table a {
+    color: #444444;
+    text-decoration: none; }
+    table a:hover {
+      color: #C33325; }

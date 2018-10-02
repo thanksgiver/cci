@@ -1,0 +1,17 @@
+table{
+  @extend .table;
+  @extend .table-sm;
+  @extend .table-bordered;
+  thead, th{
+    background-color: $gray-100;
+  }
+  font-size: 14px;
+  td, th{ }
+  a{
+    color: $body-color;
+    text-decoration: none;
+    &:hover{
+      color: $primary;
+    }
+  }
+}

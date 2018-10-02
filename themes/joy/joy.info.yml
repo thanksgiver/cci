@@ -8,11 +8,18 @@ version: 8.x-1.0
 screenshot: screenshot.png
 logo: images/logo.svg
 ckeditor_stylesheets:
-  - css/ckeditor/sup.min.css
+  - https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css
+  - css/ckeditor/body.min.css
+  - css/ckeditor/alert.min.css
   - css/ckeditor/bible-reference.min.css
-  - css/ckeditor/quote-note.min.css
+  - css/ckeditor/headings.min.css
   - css/ckeditor/list-style-1.min.css
+  - css/ckeditor/list.min.css
+  - css/ckeditor/paragraph.min.css
   - css/ckeditor/question-list.min.css
+  - css/ckeditor/quote-note.min.css
+  - css/ckeditor/sup.min.css
+  - css/ckeditor/table.min.css
 libraries:
   - joy/global-styling
   - joy/global-scripts

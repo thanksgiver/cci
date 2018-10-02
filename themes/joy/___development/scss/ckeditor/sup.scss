@@ -1,8 +1,2 @@
-@import "compass/css3";
-@import "../fonts";
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../variables";
-sup{
-  color: $red;
-  font-weight: bold;
-}
+@import 'settings';
+@import '../website/components/main/sup';
