@@ -87,10 +87,10 @@ $colors: map-merge(
 
 $primary:       $red;
 $secondary:     $gray-800;
-$success:       $green;
-$info:          $cyan;
-$warning:       $yellow;
-$danger:        $orange;
+$success:       desaturate($green, 70%);
+$info:          desaturate($cyan, 70%);
+$warning:       desaturate($yellow, 57%);
+$danger:        desaturate($orange, 70%);
 $light:         $gray-150;
 $dark:          $gray-500;
 

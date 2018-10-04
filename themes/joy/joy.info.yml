@@ -20,6 +20,7 @@ ckeditor_stylesheets:
   - css/ckeditor/quote-note.min.css
   - css/ckeditor/sup.min.css
   - css/ckeditor/table.min.css
+  - css/ckeditor/card.min.css
 libraries:
   - joy/global-styling
   - joy/global-scripts
