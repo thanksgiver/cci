@@ -2,9 +2,11 @@
 # sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
-# files/
-# sites/*/files
-# sites/*/private
+files/
+sites/
+sites/default
+sites/*/files
+sites/*/private
 
 # Ignore default text files
 # robots.txt
@@ -37,6 +39,7 @@
 
 /vendor
 node_modules
+database
 
 # package.json
 # package-lock.json

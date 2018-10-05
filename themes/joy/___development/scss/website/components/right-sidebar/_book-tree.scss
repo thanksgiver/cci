@@ -11,6 +11,13 @@
     @extend .pl-1;
     li{
       font-size: 13px;
+
+      a{
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
     }//li
   }//ul
 }//.book-tree

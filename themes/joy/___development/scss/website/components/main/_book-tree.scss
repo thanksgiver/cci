@@ -26,6 +26,13 @@
     li{
       list-style: none;
       font-size: 14px;
+      a{
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-decoration: none !important;
+      }
     }//li
   }//ul
 }//.book-tree

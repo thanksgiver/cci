@@ -11353,6 +11353,12 @@ html body {
           html body #website #layout-body .region-content main.main-content article .book-tree ul li {
             list-style: none;
             font-size: 14px; }
+            html body #website #layout-body .region-content main.main-content article .book-tree ul li a {
+              display: block;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+              text-decoration: none !important; }
       html body #website #layout-body .region-content main.main-content article ul.book-navigation-links {
         padding: 0;
         margin: 0; }
@@ -11387,7 +11393,6 @@ html body {
         padding-left: 5rem; }
       html body #website #layout-body .region-content main.main-content article .quote-note {
         font-style: italic;
-        color: #C33325;
         font-size: 80%; }
       html body #website #layout-body .region-content main.main-content article ol.list-style-1 {
         list-style: none;
@@ -11403,6 +11408,12 @@ html body {
       html body #website #layout-body .region-content main.main-content article .card ul, html body #website #layout-body .region-content main.main-content article .card ol {
         margin-top: 0;
         margin-bottom: 0; }
+      html body #website #layout-body .region-content main.main-content article p a {
+        color: #C33325;
+        text-decoration: underline; }
+      html body #website #layout-body .region-content main.main-content article td a, html body #website #layout-body .region-content main.main-content article th a, html body #website #layout-body .region-content main.main-content article li a {
+        color: #C33325;
+        text-decoration: none; }
     html body #website #layout-body .region-right-sidebar .book-tree {
       position: inherit;
       padding: 0;
@@ -11413,5 +11424,10 @@ html body {
         padding: 0; }
         html body #website #layout-body .region-right-sidebar .book-tree ul li {
           font-size: 13px; }
+          html body #website #layout-body .region-right-sidebar .book-tree ul li a {
+            display: block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
   html body .invisible {
     display: none; }

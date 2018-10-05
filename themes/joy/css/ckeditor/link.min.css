@@ -1,0 +1,7 @@
+p a {
+  color: #C33325;
+  text-decoration: underline; }
+
+td a, th a, li a {
+  color: #C33325;
+  text-decoration: none; }
