@@ -39,7 +39,7 @@ sites/*/private
 
 # /vendor
 node_modules
-# database
+database
 
 # package.json
 # package-lock.json
