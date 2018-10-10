@@ -11474,7 +11474,7 @@ html body {
         padding-left: 5rem; }
       html body #website #layout-body .region-content main.main-content article .quote-note {
         font-style: italic;
-        font-size: 80%; }
+        color: #919191; }
       html body #website #layout-body .region-content main.main-content article ol.list-style-1 {
         list-style: none;
         counter-reset: my-counter;
@@ -11511,6 +11511,6 @@ html body {
             white-space: nowrap;
             overflow: hidden; }
   html body #website #layout-footer {
-    font-size: 0.8rem; }
+    font-size: 14px; }
   html body .invisible {
     display: none; }
