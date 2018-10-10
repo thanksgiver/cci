@@ -134,6 +134,9 @@
   </section>{# /section#layout-body #}
 
   <footer id="layout-footer">
+    {% if page.footer %}
+    {{ page.footer }}
+    {% endif %}
   </footer>{# /footer#layout-footer #}
 
 </div>{# /.website #}
