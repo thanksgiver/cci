@@ -6477,7 +6477,7 @@ html body #website .region-highlighted {
   .px-md-1 {
     padding-left: 0.25rem !important; }
 
-  .p-md-2, html body #website #layout-body .region-content main.main-content {
+  .p-md-2 {
     padding: 0.5rem !important; }
 
   .pt-md-2,
@@ -6496,7 +6496,7 @@ html body #website .region-highlighted {
   .px-md-2 {
     padding-left: 0.5rem !important; }
 
-  .p-md-3 {
+  .p-md-3, html body #website #layout-body .region-content main.main-content {
     padding: 1rem !important; }
 
   .pt-md-3,
@@ -6743,7 +6743,7 @@ html body #website .region-highlighted {
   .px-lg-2 {
     padding-left: 0.5rem !important; }
 
-  .p-lg-3, html body #website #layout-body .region-content main.main-content {
+  .p-lg-3 {
     padding: 1rem !important; }
 
   .pt-lg-3,
@@ -6762,7 +6762,7 @@ html body #website .region-highlighted {
   .px-lg-3 {
     padding-left: 1rem !important; }
 
-  .p-lg-4 {
+  .p-lg-4, html body #website #layout-body .region-content main.main-content {
     padding: 1.5rem !important; }
 
   .pt-lg-4,
@@ -7009,7 +7009,7 @@ html body #website .region-highlighted {
   .px-xl-3 {
     padding-left: 1rem !important; }
 
-  .p-xl-4, html body #website #layout-body .region-content main.main-content {
+  .p-xl-4 {
     padding: 1.5rem !important; }
 
   .pt-xl-4,
@@ -7028,7 +7028,7 @@ html body #website .region-highlighted {
   .px-xl-4 {
     padding-left: 1.5rem !important; }
 
-  .p-xl-5 {
+  .p-xl-5, html body #website #layout-body .region-content main.main-content {
     padding: 3rem !important; }
 
   .pt-xl-5,
@@ -11285,7 +11285,8 @@ html body {
       background-color: #ffffff;
       border-radius: 0; }
       html body #website #layout-body .region-content main.main-content article h1, html body #website #layout-body .region-content main.main-content article h2, html body #website #layout-body .region-content main.main-content article h3, html body #website #layout-body .region-content main.main-content article h4, html body #website #layout-body .region-content main.main-content article h5, html body #website #layout-body .region-content main.main-content article h6 {
-        line-height: 2; }
+        line-height: 1.35;
+        padding: 1rem 0; }
       html body #website #layout-body .region-content main.main-content article p {
         margin-bottom: 1rem;
         text-indent: 2rem; }
