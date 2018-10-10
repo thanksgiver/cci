@@ -6039,7 +6039,7 @@ html body #website .region-highlighted {
 .px-4 {
   padding-left: 1.5rem !important; }
 
-.p-5, html body #website #layout-body .region-content main.main-content {
+.p-5 {
   padding: 3rem !important; }
 
 .pt-5,
@@ -6477,7 +6477,7 @@ html body #website .region-highlighted {
   .px-md-1 {
     padding-left: 0.25rem !important; }
 
-  .p-md-2 {
+  .p-md-2, html body #website #layout-body .region-content main.main-content {
     padding: 0.5rem !important; }
 
   .pt-md-2,
@@ -6743,7 +6743,7 @@ html body #website .region-highlighted {
   .px-lg-2 {
     padding-left: 0.5rem !important; }
 
-  .p-lg-3 {
+  .p-lg-3, html body #website #layout-body .region-content main.main-content {
     padding: 1rem !important; }
 
   .pt-lg-3,
@@ -7009,7 +7009,7 @@ html body #website .region-highlighted {
   .px-xl-3 {
     padding-left: 1rem !important; }
 
-  .p-xl-4 {
+  .p-xl-4, html body #website #layout-body .region-content main.main-content {
     padding: 1.5rem !important; }
 
   .pt-xl-4,
