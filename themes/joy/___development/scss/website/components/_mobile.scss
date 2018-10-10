@@ -34,3 +34,70 @@ $mobile-header-gap: 0.5rem;
   }//a.hamburger
 
 }//#mobile-header
+
+
+
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  outline: 0;
+  z-index: $zindex-modal;
+  background-color: rgba($black, 0.9);
+}
+
+#mobile-navigation{
+  position: fixed;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: $white;
+  // border-left: 6px solid $prospera-orange;
+  // border-right: 3px solid $prospera-yellow;
+  overflow-y: scroll;
+  z-index: $zindex-mobile-navigation;
+  padding: $spacer;
+  @include transition-property(left);
+  @include transition-duration(0.5s);
+  @include transition-timing-function(ease-out);
+
+  &.open{
+    left: 0;
+  }
+
+  ul#mobile-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li.menu-item{
+      font-size: 1.2rem;
+      a{
+        display: block;
+        // color: $prospera-orange;
+        text-transform: uppercase;
+        border-bottom: 1px dotted $gray-200;
+        padding: 0.2rem 0;
+      }
+      ul.sub-menu{
+        padding: 0;
+        margin: 0;
+        padding-left: 1rem;
+        list-style: none;
+        li.menu-item{
+          font-size: 1rem;
+          a{
+            display: block;
+            text-transform: initial;
+            // color: $prospera-gray;
+            border-bottom: 1px dotted $gray-300;
+            padding: 0.2rem 0;
+          }
+        }//li.menu-item
+      }//ul.sub-menu
+    }
+  }//ul#mobile-menu
+}//mobile-navigation
