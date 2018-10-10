@@ -6211,7 +6211,7 @@ html body #website .region-highlighted {
   .px-sm-0 {
     padding-left: 0 !important; }
 
-  .p-sm-1, html body #website #layout-body .region-content main.main-content {
+  .p-sm-1 {
     padding: 0.25rem !important; }
 
   .pt-sm-1,
@@ -6230,7 +6230,7 @@ html body #website .region-highlighted {
   .px-sm-1 {
     padding-left: 0.25rem !important; }
 
-  .p-sm-2 {
+  .p-sm-2, html body #website #layout-body .region-content main.main-content {
     padding: 0.5rem !important; }
 
   .pt-sm-2,

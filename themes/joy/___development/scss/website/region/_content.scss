@@ -3,10 +3,10 @@
   main.main-content{
     background-color: $white;
     @include border-radius($border-radius);
-    @extend .p-sm-1;
-    @extend .p-md-2;
-    @extend .p-lg-3;
-    @extend .p-xl-4;
+    @extend .p-sm-2;
+    @extend .p-md-3;
+    @extend .p-lg-4;
+    @extend .p-xl-5;
 
     article{
       @import '../components/main';
