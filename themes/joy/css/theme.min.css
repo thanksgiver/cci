@@ -11162,14 +11162,14 @@ html body {
   html body #website #mobile-header {
     background-color: #C33325;
     color: #ffffff;
-    height: 47px;
-    max-height: 47px;
+    height: 3rem;
+    max-height: 3rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
     html body #website #mobile-header a {
       color: #ffffff; }
     html body #website #mobile-header a.hamburger {
-      color: #c4c4c4;
+      color: #eb9d96;
       text-decoration: none;
       font-size: 2rem;
       line-height: 1;
