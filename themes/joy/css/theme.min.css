@@ -11510,5 +11510,7 @@ html body {
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden; }
+  html body #website #layout-footer {
+    font-size: 0.8rem; }
   html body .invisible {
     display: none; }
