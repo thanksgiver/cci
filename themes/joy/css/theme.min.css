@@ -7302,6 +7302,7 @@ a.text-dark:hover, a.text-dark:focus {
  */
 .fa,
 .fas,
+html body #website #mobile-header a.hamburger,
 html body #website .region-breadcrumb #block-joy-breadcrumbs .breadcrumb-bar ol.breadcrumb li.breadcrumb-item:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a:last-child::before,
@@ -7398,6 +7399,7 @@ html body #website .region-breadcrumb #block-joy-breadcrumbs .breadcrumb-bar ol.
 
 .fa.fa-pull-left,
 .fas.fa-pull-left,
+html body #website #mobile-header a.fa-pull-left.hamburger,
 html body #website .region-breadcrumb #block-joy-breadcrumbs .breadcrumb-bar ol.breadcrumb li.fa-pull-left.breadcrumb-item:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a.fa-pull-left:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a.fa-pull-left:last-child::before,
@@ -7407,6 +7409,7 @@ html body #website #layout-body .region-content main.main-content article .contr
   margin-right: .3em; }
 .fa.fa-pull-right,
 .fas.fa-pull-right,
+html body #website #mobile-header a.fa-pull-right.hamburger,
 html body #website .region-breadcrumb #block-joy-breadcrumbs .breadcrumb-bar ol.breadcrumb li.fa-pull-right.breadcrumb-item:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a.fa-pull-right:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a.fa-pull-right:last-child::before,
@@ -11086,6 +11089,7 @@ readers do not read off random characters that represent icons */
   src: url("../fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fontawesome/fa-solid-900.woff2") format("woff2"), url("../fontawesome/fa-solid-900.woff") format("woff"), url("../fontawesome/fa-solid-900.ttf") format("truetype"), url("../fontawesome/fa-solid-900.svg#fontawesome") format("svg"); }
 .fa,
 .fas,
+html body #website #mobile-header a.hamburger,
 html body #website .region-breadcrumb #block-joy-breadcrumbs .breadcrumb-bar ol.breadcrumb li.breadcrumb-item:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a:first-child::before,
 html body #website #layout-body .region-content main.main-content article .control-links a:last-child::before {
@@ -11155,6 +11159,25 @@ html body {
         content: 'XL';
         background-color: #990000;
         color: #fff; } }
+  html body #website #mobile-header {
+    background-color: #C33325;
+    color: #ffffff;
+    height: 47px;
+    max-height: 47px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    html body #website #mobile-header a {
+      color: #ffffff; }
+    html body #website #mobile-header a.hamburger {
+      color: #c4c4c4;
+      text-decoration: none;
+      font-size: 2rem;
+      line-height: 1;
+      font-weight: 700;
+      cursor: pointer; }
+      html body #website #mobile-header a.hamburger:before {
+        content: "\f0c9";
+        cursor: pointer; }
   html body #website #layout-header {
     height: 5rem;
     background-color: #C33325; }

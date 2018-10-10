@@ -29,6 +29,7 @@ regions:
   page_top: 'Page top'
   header: 'Header'
   primary_menu: 'Primary menu'
+  mobile_menu: 'Mobile menu'
   featured_top: 'Featured Top'
   breadcrumb: 'Breadcrumb'
   local_task: 'Local Task'

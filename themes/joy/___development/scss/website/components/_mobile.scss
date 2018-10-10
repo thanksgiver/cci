@@ -1,0 +1,36 @@
+$mobile-header-height: 3rem;
+$mobile-header-gap: 0.5rem;
+#mobile-header{
+  background-color: $primary;
+  color: $white;
+  height: 47px;
+  max-height: 47px;
+
+  padding-top:  $mobile-header-gap;
+  padding-bottom:  $mobile-header-gap;
+  a{
+    color: $white;
+  }
+
+  // a.logo{
+  //   display: block;
+  //   img{
+  //     height: $mobile-header-height - $mobile-header-gap * 2;
+  //   }
+  // }
+
+  a.hamburger{
+    @extend .fas;
+    color: $gray-300;
+    text-decoration: none;
+    font-size: $mobile-header-height - $mobile-header-gap * 2;
+    line-height: 1;
+    font-weight: $font-weight-bold;
+    cursor: pointer;
+    &:before {
+      content: fa-content($fa-var-bars);
+      cursor: pointer;
+    }
+  }//a.hamburger
+
+}//#mobile-header
