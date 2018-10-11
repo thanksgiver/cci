@@ -1,5 +1,7 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
+sites/default/settings.php
+sites/default/services.yml
 
 # Ignore paths that contain generated content.
 files/
@@ -37,7 +39,7 @@ sites/*/private
 # /scripts
 # /themes
 
-# /vendor
+/vendor
 node_modules
 database
 
