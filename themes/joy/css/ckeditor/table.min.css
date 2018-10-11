@@ -47,13 +47,13 @@ table td {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #f6e1df; }
+  background-color: #f6e2e0; }
 
 .table-hover .table-primary:hover {
-  background-color: #f0cecb; }
+  background-color: #f0d0cc; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #f0cecb; }
+    background-color: #f0d0cc; }
 
 .table-secondary,
 .table-secondary > th,
@@ -219,4 +219,4 @@ table {
     color: #444444;
     text-decoration: none; }
     table a:hover {
-      color: #C33325; }
+      color: #c0392b; }
