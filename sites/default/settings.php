@@ -745,12 +745,10 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
-$settings['trusted_host_patterns'] = array(
-  '^localhost$',
-  '^.+\.localhost$',
-  '^ccifellowship\.com$',
-  '^.+\.ccifellowship\.com$',
-);
+ $settings['trusted_host_patterns'] = array(
+   '^localhost$',
+   '^localhost/cci$',
+ );
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -790,17 +788,16 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'ccifello_cci_stg',
-  'username' => 'ccifello_admin',
-  'password' => '}J@H}2&d;*{y',
+$databases['default']['default'] = array(
+  'database' => 'ccidata',
+  'username' => 'root',
+  'password' => 'root',
   'prefix' => '',
-  'host' => 'localhost',
-  'port' => '',
+  'host' => '127.0.01',
+  'port' => '3306',
+  'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_55fWsKtlBTcnnHlY9fE67Nr9HiQGIhIJh3dv4zFL6bl5bV7lHImUbecZ_yMK0m4A4p0t9bDY5g/sync';
-
-
