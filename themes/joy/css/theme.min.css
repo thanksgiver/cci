@@ -11370,6 +11370,9 @@ html body {
         padding-bottom: 0;
         margin-top: 0;
         margin-bottom: 0; }
+        html body #website #layout-body .region-content main.main-content article .question-list ul, html body #website #layout-body .region-content main.main-content article .question-list ol {
+          padding-top: 0;
+          padding-bottom: 0; }
       html body #website #layout-body .region-content main.main-content article table {
         font-size: 14px; }
         html body #website #layout-body .region-content main.main-content article table thead, html body #website #layout-body .region-content main.main-content article table th {
