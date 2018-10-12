@@ -6,6 +6,8 @@ sites/default/services.yml
 # Ignore paths that contain generated content.
 files/
 sites/
+sites/default/local.services.yml
+sites/settings.local.php
 sites/default
 sites/*/files
 sites/*/private
